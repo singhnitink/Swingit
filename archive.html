@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive - SwingSignal AI</title>
+    <meta name="description" content="Historical archive of SwingSignal AI trading reports.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">📊</span>
+                    <span class="logo-text">SwingSignal AI</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="index.html">Today's Signals</a>
+                    <a href="archive.html" class="active">Archive</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Disclaimer Banner -->
+    <div class="disclaimer-banner">
+        <div class="container">
+            <strong>⚠️ Educational purposes only. Do your own research before investing.</strong>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero" style="padding-bottom: 0;">
+            <div class="container">
+                <h1>Report Archive</h1>
+                <p class="hero-date">Browse historical trading signals</p>
+            </div>
+        </section>
+
+        <section class="signals-section">
+            <div class="container">
+                <div class="archive-list" id="archive-list">
+                    <!-- Archive items will be dynamically generated or manually listed -->
+                    <!-- ARCHIVE_ITEMS_START -->
+                    <a href="index.html?date=2025-12-24" class="archive-item" data-date="2025-12-24">
+                        <div>
+                            <div class="archive-date">December 24, 2025</div>
+                            <div class="archive-meta">
+                                <span>17 signals</span>
+                            </div>
+                        </div>
+                        <span class="archive-arrow">→</span>
+                    </a>
+                    <!-- ARCHIVE_ITEMS_END -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>SwingSignal AI &copy; 2025 | For educational purposes only. Not financial advice.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle archive item clicks to load specific date reports
+        document.querySelectorAll('.archive-item').forEach(item => {
+            item.addEventListener('click', f unction (e) {
+                e.preventDefault();
+                const date = this.dataset.date;
+                // Store the selected date and redirect
+                sessionStorage.setItem('selectedDate', date);
+                window.location.href = `index.html?date=${date}`;
+            });
+    });
+    </script>
+</body>
+
+</html>

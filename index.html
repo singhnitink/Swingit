@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwingSignal AI - Daily Trading Signals</title>
+    <meta name="description"
+        content="AI-powered swing trading signals for US and Indian markets. Daily buy/sell recommendations with complete trade setups.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">📊</span>
+                    <span class="logo-text">SwingSignal AI</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="index.html" class="active">Today's Signals</a>
+                    <a href="archive.html">Archive</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Disclaimer Banner -->
+    <div class="disclaimer-banner">
+        <div class="container">
+            <strong>⚠️ Educational purposes only. Do your own research before investing.</strong>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    <span>Live Market Analysis</span>
+                </div>
+                <h1 id="report-title">SwingSignal AI - Confirmed Opportunities</h1>
+                <p class="hero-date" id="report-date">Loading...</p>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value total" id="total-signals">-</div>
+                        <div class="stat-label">Total Signals</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value buy" id="buy-signals">-</div>
+                        <div class="stat-label">Buy Signals</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value sell" id="sell-signals">-</div>
+                        <div class="stat-label">Sell Signals</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signals Section -->
+        <section class="signals-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Today's Opportunities</h2>
+                </div>
+
+                <div class="signals-grid" id="signals-container">
+                    <!-- Loading State -->
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading signals...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>SwingSignal AI &copy; 2025 | For educational purposes only. Not financial advice.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
