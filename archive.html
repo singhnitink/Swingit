@@ -26,8 +26,7 @@
         <div class="container">
             <div class="header-content">
                 <a href="index.html" class="logo">
-                    <span class="logo-icon">📊</span>
-                    <span class="logo-text">SwingSignal AI</span>
+                    <span class="logo-text">SwingSignal</span>
                 </a>
                 <nav class="nav-links">
                     <a href="index.html">Today's Signals</a>
@@ -76,21 +75,21 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>SwingSignal AI &copy; 2025 | For educational purposes only. Not financial advice.</p>
+            <p>SwingSignal &copy; 2025 | For educational purposes only. Not financial advice.</p>
         </div>
     </footer>
 
     <script>
         // Handle archive item clicks to load specific date reports
         document.querySelectorAll('.archive-item').forEach(item => {
-            item.addEventListener('click', f unction (e) {
+            item.addEventListener('click', function (e) {
                 e.preventDefault();
                 const date = this.dataset.date;
                 // Store the selected date and redirect
                 sessionStorage.setItem('selectedDate', date);
                 window.location.href = `index.html?date=${date}`;
             });
-    });
+        });
     </script>
 </body>
 
