@@ -43,20 +43,32 @@ async function loadReport() {
 
 // Render the complete report
 function renderReport(data) {
-    // Update metadata
-    if (data.report_metadata) {
-        const meta = data.report_metadata;
-        elements.reportTitle.textContent = meta.title || 'SwingSignal AI';
+    // Update metadata - support both formats
+    const meta = data.report_metadata || data.meta;
+    if (meta) {
+        elements.reportTitle.textContent = meta.title || 'SwingSignal - Confirmed Opportunities';
 
-        const dateStr = formatDate(meta.generated_date);
-        elements.reportDate.textContent = dateStr;
+        // Handle both date formats
+        let dateStr = meta.generated_date;
+        if (!dateStr && meta.generated_at) {
+            // Extract YYYY-MM-DD from ISO format
+            dateStr = meta.generated_at.split('T')[0];
+        }
+        elements.reportDate.textContent = formatDate(dateStr);
 
         elements.totalSignals.textContent = meta.total_signals || data.signals?.length || 0;
     }
 
-    // Count buy/sell signals
-    const buyCount = data.signals?.filter(s => s.action?.toUpperCase() === 'BUY').length || 0;
-    const sellCount = data.signals?.filter(s => s.action?.toUpperCase() === 'SELL').length || 0;
+    // Count buy/sell signals - support both 'action' and 'signal' field names
+    const buyCount = data.signals?.filter(s => {
+        const action = (s.action || s.signal || '').toUpperCase();
+        return action === 'BUY';
+    }).length || 0;
+
+    const sellCount = data.signals?.filter(s => {
+        const action = (s.action || s.signal || '').toUpperCase();
+        return action === 'SELL';
+    }).length || 0;
 
     elements.buySignals.textContent = buyCount;
     elements.sellSignals.textContent = sellCount;
@@ -88,22 +100,43 @@ function renderSignals(signals) {
 // Create a single signal card
 function createSignalCard(signal) {
     const card = document.createElement('div');
-    const actionClass = signal.action?.toLowerCase() || 'buy';
+
+    // Support both 'action' and 'signal' field names
+    const action = signal.action || signal.signal || 'BUY';
+    const actionClass = action.toLowerCase();
     card.className = `signal-card ${actionClass}`;
 
-    const setup = signal.trade_setup || {};
+    // Support both formats for trade setup
+    const setup = signal.trade_setup || signal.analysis?.tradeSetup || {};
+
+    // Support both 'symbol' and 'ticker' field names
+    const symbolName = signal.symbol || signal.ticker || 'N/A';
+
+    // Support both 'reference_price' and 'price' field names
+    const price = signal.reference_price || signal.price;
+
+    // Support both 'score' and 'analysis.confidenceScore'
+    const score = signal.score || signal.analysis?.confidenceScore || 'N/A';
+
+    // Get analysis text - support both string and object formats
+    let analysisText = 'No analysis available.';
+    if (typeof signal.analysis === 'string') {
+        analysisText = signal.analysis;
+    } else if (signal.analysis?.reasoning) {
+        analysisText = signal.analysis.reasoning;
+    }
 
     card.innerHTML = `
         <div class="signal-header">
             <div class="signal-info">
-                <div class="signal-symbol">${escapeHtml(signal.symbol || 'N/A')}</div>
-                <div class="signal-price">Ref: ₹${formatNumber(signal.reference_price)}</div>
+                <div class="signal-symbol">${escapeHtml(symbolName)}</div>
+                <div class="signal-price">Ref: ₹${formatNumber(price)}</div>
             </div>
             <div class="signal-badges">
-                <span class="action-badge ${actionClass}">${escapeHtml(signal.action || 'N/A')}</span>
+                <span class="action-badge ${actionClass}">${escapeHtml(action)}</span>
                 <span class="score-badge">
                     <span>⭐</span>
-                    <span>${escapeHtml(signal.score || 'N/A')}</span>
+                    <span>${escapeHtml(String(score))}</span>
                 </span>
             </div>
         </div>
@@ -112,15 +145,15 @@ function createSignalCard(signal) {
             <div class="setup-grid">
                 <div class="setup-item">
                     <div class="setup-label">Entry</div>
-                    <div class="setup-value entry">${formatSetupValue(setup.entry)}</div>
+                    <div class="setup-value entry">${formatSetupValue(setup.entry || setup.entryZone)}</div>
                 </div>
                 <div class="setup-item">
                     <div class="setup-label">Stop Loss</div>
-                    <div class="setup-value stop">${formatSetupValue(setup.stop)}</div>
+                    <div class="setup-value stop">${formatSetupValue(setup.stop || setup.stopLoss)}</div>
                 </div>
                 <div class="setup-item">
                     <div class="setup-label">Target</div>
-                    <div class="setup-value target">${formatSetupValue(setup.target)}</div>
+                    <div class="setup-value target">${formatSetupValue(setup.target || setup.targetPrice)}</div>
                 </div>
             </div>
         </div>
@@ -131,7 +164,7 @@ function createSignalCard(signal) {
                 <span class="icon">▼</span>
             </button>
             <div class="analysis-content">
-                <div class="analysis-text">${escapeHtml(signal.analysis || 'No analysis available.')}</div>
+                <div class="analysis-text">${escapeHtml(analysisText)}</div>
             </div>
         </div>
     `;
