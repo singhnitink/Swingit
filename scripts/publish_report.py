@@ -20,19 +20,26 @@ from pathlib import Path
 
 
 def validate_json_structure(data):
-    """Validate that the JSON has the required structure."""
-    required_metadata = ['generated_date', 'total_signals']
-    required_signal_fields = ['symbol', 'action', 'score', 'trade_setup']
+    """Validate that the JSON has the required structure.
     
+    Supports two formats:
+    - Original: report_metadata (with generated_date), signals with symbol/action/score/trade_setup
+    - New: meta (with generated_at), signals with ticker/signal/analysis.tradeSetup
+    """
     errors = []
     
-    # Check metadata
-    if 'report_metadata' not in data:
-        errors.append("Missing 'report_metadata' field")
+    # Check metadata - accept either 'report_metadata' or 'meta'
+    has_metadata = 'report_metadata' in data or 'meta' in data
+    if not has_metadata:
+        errors.append("Missing 'report_metadata' or 'meta' field")
     else:
-        for field in required_metadata:
-            if field not in data['report_metadata']:
-                errors.append(f"Missing 'report_metadata.{field}'")
+        meta = data.get('report_metadata') or data.get('meta')
+        # Check for either date field format
+        has_date = 'generated_date' in meta or 'generated_at' in meta
+        if not has_date:
+            errors.append("Missing date field (generated_date or generated_at)")
+        if 'total_signals' not in meta:
+            errors.append("Missing 'total_signals' in metadata")
     
     # Check signals
     if 'signals' not in data:
@@ -40,12 +47,38 @@ def validate_json_structure(data):
     elif not isinstance(data['signals'], list):
         errors.append("'signals' must be an array")
     elif len(data['signals']) > 0:
-        # Check first signal structure
-        for field in required_signal_fields:
-            if field not in data['signals'][0]:
-                errors.append(f"Signal missing required field: '{field}'")
+        signal = data['signals'][0]
+        # Check for either format of required fields
+        has_symbol = 'symbol' in signal or 'ticker' in signal
+        has_action = 'action' in signal or 'signal' in signal
+        has_trade_setup = 'trade_setup' in signal or ('analysis' in signal and 'tradeSetup' in signal.get('analysis', {}))
+        
+        if not has_symbol:
+            errors.append("Signal missing required field: 'symbol' or 'ticker'")
+        if not has_action:
+            errors.append("Signal missing required field: 'action' or 'signal'")
+        if not has_trade_setup:
+            errors.append("Signal missing required field: 'trade_setup' or 'analysis.tradeSetup'")
+        # Note: 'score' is now optional (can use analysis.confidenceScore instead)
     
     return errors
+
+
+def get_metadata(data):
+    """Extract metadata from either format."""
+    meta = data.get('report_metadata') or data.get('meta')
+    
+    # Get date - handle both formats
+    date_str = meta.get('generated_date')
+    if not date_str and 'generated_at' in meta:
+        # Parse ISO format to YYYY-MM-DD
+        generated_at = meta['generated_at']
+        # Handle ISO format like "2025-12-28T06:29:37.692Z"
+        date_str = generated_at.split('T')[0]
+    
+    signal_count = meta.get('total_signals', 0)
+    
+    return date_str, signal_count
 
 
 def format_date_display(date_str):
@@ -134,10 +167,8 @@ def publish_report(json_path):
     
     print("  ✓ JSON structure validated")
     
-    # Extract metadata
-    meta = data['report_metadata']
-    date_str = meta['generated_date']
-    signal_count = meta['total_signals']
+    # Extract metadata (supports both formats)
+    date_str, signal_count = get_metadata(data)
     
     print(f"  ✓ Report date: {date_str}")
     print(f"  ✓ Signal count: {signal_count}")
