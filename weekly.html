@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekly Analysis - SwingSignal AI</title>
+    <title>Weekly Signals - SwingSignal AI</title>
     <meta name="description"
-        content="Weekly market analysis and insights from SwingSignal AI. Get the big picture view of market trends and opportunities.">
+        content="Weekly swing trading signals from SwingSignal AI based on weekly candle analysis.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml"
@@ -40,7 +40,7 @@
                 </a>
                 <nav class="nav-links">
                     <a href="index.html">Today's Signals</a>
-                    <a href="weekly.html" class="active">Weekly Analysis</a>
+                    <a href="weekly.html" class="active">Weekly Signals</a>
                     <a href="archive.html">Archive</a>
                 </nav>
             </div>
@@ -59,19 +59,38 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="container">
-                <h1 id="report-title">Weekly Market Analysis</h1>
+                <h1 id="report-title">Weekly Signals</h1>
                 <p class="hero-date" id="report-date">Loading...</p>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value total" id="total-signals">-</div>
+                        <div class="stat-label">Total Signals</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value buy" id="buy-signals">-</div>
+                        <div class="stat-label">Buy Signals</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value sell" id="sell-signals">-</div>
+                        <div class="stat-label">Sell Signals</div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Weekly Analysis Section -->
+        <!-- Signals Section -->
         <section class="signals-section">
             <div class="container">
-                <div id="weekly-content">
+                <div class="section-header">
+                    <h2 class="section-title">Weekly Opportunities</h2>
+                </div>
+
+                <div class="signals-grid" id="signals-container">
                     <!-- Loading State -->
                     <div class="loading">
                         <div class="loading-spinner"></div>
-                        <p>Loading weekly analysis...</p>
+                        <p>Loading signals...</p>
                     </div>
                 </div>
             </div>

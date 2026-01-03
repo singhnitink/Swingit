@@ -1,4 +1,4 @@
-// SwingSignal AI - Weekly Analysis JavaScript
+// SwingSignal AI - Weekly Signals JavaScript
 
 // Get date from URL query parameter if present
 function getWeeklyReportPath() {
@@ -20,144 +20,156 @@ const CONFIG = {
 const elements = {
     reportTitle: document.getElementById('report-title'),
     reportDate: document.getElementById('report-date'),
-    weeklyContent: document.getElementById('weekly-content')
+    totalSignals: document.getElementById('total-signals'),
+    buySignals: document.getElementById('buy-signals'),
+    sellSignals: document.getElementById('sell-signals'),
+    signalsContainer: document.getElementById('signals-container')
 };
 
 // Fetch and display the weekly report
-async function loadWeeklyReport() {
+async function loadReport() {
     try {
         const response = await fetch(CONFIG.dataPath);
         if (!response.ok) {
-            throw new Error('Weekly report not found');
+            throw new Error('Report not found');
         }
         const data = await response.json();
-        renderWeeklyReport(data);
+        renderReport(data);
     } catch (error) {
-        console.error('Error loading weekly report:', error);
+        console.error('Error loading report:', error);
         showError();
     }
 }
 
-// Render the complete weekly report
-function renderWeeklyReport(data) {
+// Render the complete report
+function renderReport(data) {
     // Update metadata - support both formats
     const meta = data.report_metadata || data.meta;
     if (meta) {
-        elements.reportTitle.textContent = meta.title || 'Weekly Market Analysis';
+        elements.reportTitle.textContent = 'Weekly Signals';
 
-        // Handle date display
-        let dateStr = meta.week_ending || meta.generated_date;
+        // Handle both date formats
+        let dateStr = meta.generated_date;
         if (!dateStr && meta.generated_at) {
             dateStr = meta.generated_at.split('T')[0];
         }
-        elements.reportDate.textContent = `Week Ending: ${formatDate(dateStr)}`;
+        elements.reportDate.textContent = `Week of ${formatDate(dateStr)}`;
+
+        elements.totalSignals.textContent = meta.total_signals || data.signals?.length || 0;
     }
 
-    // Build the weekly content
-    let html = '';
+    // Count buy/sell signals
+    const buyCount = data.signals?.filter(s => {
+        const action = (s.action || s.signal || '').toUpperCase();
+        return action === 'BUY';
+    }).length || 0;
 
-    // Market Overview Section
-    if (data.market_overview) {
-        html += `
-            <div class="weekly-card">
-                <div class="weekly-card-header">
-                    <h2 class="weekly-card-title">📈 Market Overview</h2>
-                </div>
-                <div class="weekly-card-content">
-                    <p>${escapeHtml(data.market_overview)}</p>
-                </div>
-            </div>
-        `;
-    }
+    const sellCount = data.signals?.filter(s => {
+        const action = (s.action || s.signal || '').toUpperCase();
+        return action === 'SELL';
+    }).length || 0;
 
-    // Key Insights Section
-    if (data.key_insights && data.key_insights.length > 0) {
-        html += `
-            <div class="weekly-card">
-                <div class="weekly-card-header">
-                    <h2 class="weekly-card-title">💡 Key Insights</h2>
-                </div>
-                <div class="weekly-card-content">
-                    <ul class="insight-list">
-                        ${data.key_insights.map(insight => `<li>${escapeHtml(insight)}</li>`).join('')}
-                    </ul>
-                </div>
-            </div>
-        `;
-    }
+    elements.buySignals.textContent = buyCount;
+    elements.sellSignals.textContent = sellCount;
 
-    // Top Picks Section
-    if (data.top_picks && data.top_picks.length > 0) {
-        html += `
-            <div class="weekly-card">
-                <div class="weekly-card-header">
-                    <h2 class="weekly-card-title">🎯 Top Picks This Week</h2>
-                </div>
-                <div class="weekly-card-content">
-                    <div class="top-picks-grid">
-                        ${data.top_picks.map(pick => createPickCard(pick)).join('')}
-                    </div>
-                </div>
-            </div>
-        `;
-    }
-
-    // Sector Analysis Section
-    if (data.sector_analysis) {
-        html += `
-            <div class="weekly-card">
-                <div class="weekly-card-header">
-                    <h2 class="weekly-card-title">🏭 Sector Analysis</h2>
-                </div>
-                <div class="weekly-card-content">
-                    <p>${escapeHtml(data.sector_analysis)}</p>
-                </div>
-            </div>
-        `;
-    }
-
-    // Outlook Section
-    if (data.outlook) {
-        html += `
-            <div class="weekly-card outlook-card">
-                <div class="weekly-card-header">
-                    <h2 class="weekly-card-title">🔮 Week Ahead Outlook</h2>
-                </div>
-                <div class="weekly-card-content">
-                    <p>${escapeHtml(data.outlook)}</p>
-                </div>
-            </div>
-        `;
-    }
-
-    // If no content, show empty state
-    if (!html) {
-        html = `
-            <div class="empty-state">
-                <p>No weekly analysis available yet.</p>
-            </div>
-        `;
-    }
-
-    elements.weeklyContent.innerHTML = html;
+    // Render signal cards
+    renderSignals(data.signals || []);
 }
 
-// Create a top pick card
-function createPickCard(pick) {
-    const symbol = pick.symbol || pick.ticker || 'N/A';
-    const action = pick.action || pick.signal || 'BUY';
-    const actionClass = action.toLowerCase();
-    const rationale = pick.rationale || pick.reason || '';
-
-    return `
-        <div class="pick-card ${actionClass}">
-            <div class="pick-header">
-                <span class="pick-symbol">${escapeHtml(symbol)}</span>
-                <span class="action-badge ${actionClass}">${escapeHtml(action)}</span>
+// Render all signal cards
+function renderSignals(signals) {
+    if (!signals.length) {
+        elements.signalsContainer.innerHTML = `
+            <div class="empty-state">
+                <p>No weekly signals available.</p>
             </div>
-            ${rationale ? `<p class="pick-rationale">${escapeHtml(rationale)}</p>` : ''}
+        `;
+        return;
+    }
+
+    elements.signalsContainer.innerHTML = '';
+
+    signals.forEach((signal, index) => {
+        const card = createSignalCard(signal);
+        card.style.animationDelay = `${index * CONFIG.animationDelay}ms`;
+        elements.signalsContainer.appendChild(card);
+    });
+}
+
+// Create a single signal card
+function createSignalCard(signal) {
+    const card = document.createElement('div');
+
+    const action = signal.action || signal.signal || 'BUY';
+    const actionClass = action.toLowerCase();
+    card.className = `signal-card ${actionClass}`;
+
+    const setup = signal.trade_setup || signal.analysis?.tradeSetup || {};
+    const symbolName = signal.symbol || signal.ticker || 'N/A';
+    const price = signal.reference_price || signal.price;
+    const score = signal.score || signal.analysis?.confidenceScore || 'N/A';
+
+    let analysisText = 'No analysis available.';
+    if (typeof signal.analysis === 'string') {
+        analysisText = signal.analysis;
+    } else if (signal.analysis?.reasoning) {
+        analysisText = signal.analysis.reasoning;
+    }
+
+    card.innerHTML = `
+        <div class="signal-header">
+            <div class="signal-info">
+                <div class="signal-symbol">${escapeHtml(symbolName)}</div>
+                <div class="signal-price">Ref: ₹${formatNumber(price)}</div>
+            </div>
+            <div class="signal-badges">
+                <span class="action-badge ${actionClass}">${escapeHtml(action)}</span>
+                <span class="score-badge">
+                    <span>⭐</span>
+                    <span>${escapeHtml(String(score))}</span>
+                </span>
+            </div>
+        </div>
+        
+        <div class="trade-setup">
+            <div class="setup-grid">
+                <div class="setup-item">
+                    <div class="setup-label">Entry</div>
+                    <div class="setup-value entry">${formatSetupValue(setup.entry || setup.entryZone)}</div>
+                </div>
+                <div class="setup-item">
+                    <div class="setup-label">Stop Loss</div>
+                    <div class="setup-value stop">${formatSetupValue(setup.stop || setup.stopLoss)}</div>
+                </div>
+                <div class="setup-item">
+                    <div class="setup-label">Target</div>
+                    <div class="setup-value target">${formatSetupValue(setup.target || setup.targetPrice)}</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="signal-analysis">
+            <button class="analysis-toggle" onclick="toggleAnalysis(this)">
+                <span>View Analysis</span>
+                <span class="icon">▼</span>
+            </button>
+            <div class="analysis-content">
+                <div class="analysis-text">${escapeHtml(analysisText)}</div>
+            </div>
         </div>
     `;
+
+    return card;
+}
+
+// Toggle analysis visibility
+function toggleAnalysis(button) {
+    button.classList.toggle('active');
+    const content = button.nextElementSibling;
+    content.classList.toggle('show');
+
+    const span = button.querySelector('span:first-child');
+    span.textContent = content.classList.contains('show') ? 'Hide Analysis' : 'View Analysis';
 }
 
 // Format date string
@@ -184,6 +196,21 @@ function formatDate(dateStr) {
     }
 }
 
+// Format number with commas
+function formatNumber(num) {
+    if (num === undefined || num === null) return 'N/A';
+    return Number(num).toLocaleString('en-IN');
+}
+
+// Format setup value
+function formatSetupValue(value) {
+    if (value === undefined || value === null) return 'N/A';
+    if (typeof value === 'number') {
+        return formatNumber(value);
+    }
+    return escapeHtml(String(value));
+}
+
 // Escape HTML to prevent XSS
 function escapeHtml(text) {
     if (!text) return '';
@@ -194,13 +221,13 @@ function escapeHtml(text) {
 
 // Show error state
 function showError() {
-    elements.weeklyContent.innerHTML = `
+    elements.signalsContainer.innerHTML = `
         <div class="empty-state">
-            <p>Unable to load weekly analysis. Please try again later.</p>
+            <p>Unable to load weekly signals. Please try again later.</p>
         </div>
     `;
     elements.reportDate.textContent = 'Error loading report';
 }
 
 // Initialize
-document.addEventListener('DOMContentLoaded', loadWeeklyReport);
+document.addEventListener('DOMContentLoaded', loadReport);

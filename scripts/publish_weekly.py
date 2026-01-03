@@ -2,12 +2,12 @@
 """
 SwingSignal Weekly Report Publisher
 
-This script automates the process of publishing a new weekly analysis report.
+This script automates the process of publishing a new weekly signals report.
 It copies the JSON file to the reports/weekly directory, updates latest.json,
 and refreshes the archive page.
 
 Usage:
-    python scripts/publish_weekly.py path/to/WeeklyAnalysis_YYYY-MM-DD.json
+    python scripts/publish_weekly.py path/to/signals_file.json
 """
 
 import json
@@ -20,7 +20,12 @@ from pathlib import Path
 
 
 def validate_json_structure(data):
-    """Validate that the JSON has the required structure for weekly reports."""
+    """Validate that the JSON has the required structure.
+    
+    Supports two formats:
+    - Original: report_metadata (with generated_date), signals with symbol/action/score/trade_setup
+    - New: meta (with generated_at), signals with ticker/signal/analysis.tradeSetup
+    """
     errors = []
     
     # Check metadata - accept either 'report_metadata' or 'meta'
@@ -30,21 +35,30 @@ def validate_json_structure(data):
     else:
         meta = data.get('report_metadata') or data.get('meta')
         # Check for either date field format
-        has_date = 'week_ending' in meta or 'generated_date' in meta or 'generated_at' in meta
+        has_date = 'generated_date' in meta or 'generated_at' in meta
         if not has_date:
-            errors.append("Missing date field (week_ending, generated_date, or generated_at)")
+            errors.append("Missing date field (generated_date or generated_at)")
+        if 'total_signals' not in meta:
+            errors.append("Missing 'total_signals' in metadata")
     
-    # Check for at least some content
-    has_content = any([
-        'market_overview' in data,
-        'key_insights' in data,
-        'top_picks' in data,
-        'sector_analysis' in data,
-        'outlook' in data
-    ])
-    
-    if not has_content:
-        errors.append("Missing content - need at least one of: market_overview, key_insights, top_picks, sector_analysis, outlook")
+    # Check signals
+    if 'signals' not in data:
+        errors.append("Missing 'signals' array")
+    elif not isinstance(data['signals'], list):
+        errors.append("'signals' must be an array")
+    elif len(data['signals']) > 0:
+        signal = data['signals'][0]
+        # Check for either format of required fields
+        has_symbol = 'symbol' in signal or 'ticker' in signal
+        has_action = 'action' in signal or 'signal' in signal
+        has_trade_setup = 'trade_setup' in signal or ('analysis' in signal and 'tradeSetup' in signal.get('analysis', {}))
+        
+        if not has_symbol:
+            errors.append("Signal missing required field: 'symbol' or 'ticker'")
+        if not has_action:
+            errors.append("Signal missing required field: 'action' or 'signal'")
+        if not has_trade_setup:
+            errors.append("Signal missing required field: 'trade_setup' or 'analysis.tradeSetup'")
     
     return errors
 
@@ -53,14 +67,16 @@ def get_metadata(data):
     """Extract metadata from either format."""
     meta = data.get('report_metadata') or data.get('meta')
     
-    # Get date - handle multiple formats
-    date_str = meta.get('week_ending') or meta.get('generated_date')
+    # Get date - handle both formats
+    date_str = meta.get('generated_date')
     if not date_str and 'generated_at' in meta:
         # Parse ISO format to YYYY-MM-DD
         generated_at = meta['generated_at']
         date_str = generated_at.split('T')[0]
     
-    return date_str
+    signal_count = meta.get('total_signals', 0)
+    
+    return date_str, signal_count
 
 
 def format_date_display(date_str):
@@ -72,7 +88,7 @@ def format_date_display(date_str):
         return date_str
 
 
-def update_archive_html(archive_path, date_str):
+def update_archive_html(archive_path, date_str, signal_count):
     """Add a new entry to the archive.html weekly section."""
     with open(archive_path, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -84,7 +100,7 @@ def update_archive_html(archive_path, date_str):
                         <div>
                             <div class="archive-date">Week of {display_date}</div>
                             <div class="archive-meta">
-                                <span>Weekly Analysis</span>
+                                <span>{signal_count} signals</span>
                             </div>
                         </div>
                         <span class="archive-arrow">→</span>
@@ -150,9 +166,10 @@ def publish_weekly_report(json_path):
     print("  ✓ JSON structure validated")
     
     # Extract metadata
-    date_str = get_metadata(data)
+    date_str, signal_count = get_metadata(data)
     
-    print(f"  ✓ Week ending: {date_str}")
+    print(f"  ✓ Report date: {date_str}")
+    print(f"  ✓ Signal count: {signal_count}")
     
     # Create weekly reports directory if needed
     weekly_dir.mkdir(parents=True, exist_ok=True)
@@ -173,19 +190,13 @@ def publish_weekly_report(json_path):
     
     # Update archive.html
     if archive_path.exists():
-        update_archive_html(archive_path, date_str)
+        update_archive_html(archive_path, date_str, signal_count)
     else:
         print("  ⚠ Warning: archive.html not found")
     
     # Print git commands
     print("\n" + "=" * 40)
     print("✅ Weekly report published successfully!")
-    print("\nTo deploy, run these commands:")
-    print("-" * 40)
-    print(f"git add .")
-    print(f'git commit -m "Add weekly analysis for {date_str}"')
-    print("git push")
-    print("-" * 40)
     print("")
 
 
@@ -193,7 +204,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python scripts/publish_weekly.py <path_to_json_report>")
         print("\nExample:")
-        print("  python scripts/publish_weekly.py WeeklyAnalysis_2025-12-28.json")
+        print("  python scripts/publish_weekly.py signals_2026-01-03.json")
         sys.exit(1)
     
     publish_weekly_report(sys.argv[1])

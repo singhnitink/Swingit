@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Initialize conda for this script
-source ~/anaconda3/etc/profile.d/conda.sh  # or ~/miniconda3/etc/profile.d/conda.sh
+source /Users/nitinsingh/miniconda3/etc/profile.d/conda.sh  # or ~/miniconda3/etc/profile.d/conda.sh
 conda activate tradingweb
 
 # Uncomment the one you need:
