@@ -179,12 +179,16 @@ def publish_report(json_path):
     # Copy to dated file
     dated_file = reports_dir / f'{date_str}.json'
     shutil.copy(json_path, dated_file)
-    print(f"\n📁 Copied to: reports/{date_str}.json")
+    print(f"\n📁 Saved to: reports/{date_str}.json")
     
     # Update latest.json
     latest_file = reports_dir / 'latest.json'
     shutil.copy(json_path, latest_file)
     print(f"📁 Updated: reports/latest.json")
+    
+    # Remove source file from root to keep it clean
+    json_path.unlink()
+    print(f"🗑️  Removed source file: {json_path.name}")
     
     # Update archive.html
     if archive_path.exists():

@@ -38,6 +38,7 @@
                 </a>
                 <nav class="nav-links">
                     <a href="index.html">Today's Signals</a>
+                    <a href="weekly.html">Weekly Analysis</a>
                     <a href="archive.html" class="active">Archive</a>
                 </nav>
             </div>
@@ -62,8 +63,14 @@
 
         <section class="signals-section">
             <div class="container">
-                <div class="archive-list" id="archive-list">
-                    <!-- Archive items will be dynamically generated or manually listed -->
+                <!-- Archive Tabs -->
+                <div class="archive-tabs">
+                    <button class="tab-btn active" data-tab="daily">📅 Daily Signals</button>
+                    <button class="tab-btn" data-tab="weekly">📊 Weekly Analysis</button>
+                </div>
+
+                <!-- Daily Archive -->
+                <div class="archive-list" id="daily-archive">
                     <!-- ARCHIVE_ITEMS_START -->
                     <a href="index.html?date=2026-01-02" class="archive-item" data-date="2026-01-02">
                         <div>
@@ -83,7 +90,7 @@
                         </div>
                         <span class="archive-arrow">→</span>
                     </a>
-                                        <a href="index.html?date=2025-12-29" class="archive-item" data-date="2025-12-29">
+                    <a href="index.html?date=2025-12-29" class="archive-item" data-date="2025-12-29">
                         <div>
                             <div class="archive-date">December 29, 2025</div>
                             <div class="archive-meta">
@@ -112,6 +119,21 @@
                     </a>
                     <!-- ARCHIVE_ITEMS_END -->
                 </div>
+
+                <!-- Weekly Archive -->
+                <div class="archive-list" id="weekly-archive" style="display: none;">
+                    <!-- WEEKLY_ITEMS_START -->
+                    <a href="weekly.html?date=2026-01-05" class="archive-item" data-date="2026-01-05">
+                        <div>
+                            <div class="archive-date">Week of January 05, 2026</div>
+                            <div class="archive-meta">
+                                <span>Weekly Analysis</span>
+                            </div>
+                        </div>
+                        <span class="archive-arrow">→</span>
+                    </a>
+                    <!-- WEEKLY_ITEMS_END -->
+                </div>
             </div>
         </section>
     </main>
@@ -124,14 +146,17 @@
     </footer>
 
     <script>
-        // Handle archive item clicks to load specific date reports
-        document.querySelectorAll('.archive-item').forEach(item => {
-            item.addEventListener('click', function (e) {
-                e.preventDefault();
-                const date = this.dataset.date;
-                // Store the selected date and redirect
-                sessionStorage.setItem('selectedDate', date);
-                window.location.href = `index.html?date=${date}`;
+        // Handle tab switching
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                // Update active tab
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                // Show/hide archives
+                const tab = this.dataset.tab;
+                document.getElementById('daily-archive').style.display = tab === 'daily' ? 'grid' : 'none';
+                document.getElementById('weekly-archive').style.display = tab === 'weekly' ? 'grid' : 'none';
             });
         });
     </script>

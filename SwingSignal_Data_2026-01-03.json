@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "generated_at": "2026-01-03T17:21:57.010Z",
+    "total_signals": 12,
+    "filter": "Strong/Confirmed Signals Only"
+  },
+  "signals": [
+    {
+      "ticker": "COALINDIA.NS",
+      "signal": "BUY",
+      "price": 427.8999938964844,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 366.98, Orig TP: 610.67)",
+      "analysis": {
+        "ticker": "COALINDIA.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 75,
+        "validation": "Confirm",
+        "reasoning": "The technical Supertrend buy signal aligns with a major structural catalyst: the policy shift effective Jan 1, 2026, allowing Coal India to export directly to neighboring countries (Nepal, Bangladesh, Bhutan). This news has triggered a breakout to fresh 52-week highs (~429 INR), overriding concerns about weak Q2 FY26 earnings (-30% profit) and high domestic inventory. While domestic offtake dipped 5.2% in Dec 2025, the new export channel is viewed as a solution to the supply glut. Additionally, an upcoming Q3 dividend (historically declared in late Jan) provides yield support.",
+        "fundamental_summary": "Q2 FY26 net profit declined 30% YoY to ₹4,354 Cr due to lower e-auction premiums, though production is recovering (+4.6% in Dec 2025). The key driver is the strategic pivot to exports to clear record-high pithead inventory. Dividend yield remains attractive at ~6%.",
+        "catalysts": [
+          "Export Policy Implementation (Jan 1, 2026)",
+          "Q3 FY26 Earnings & Interim Dividend (Expected late Jan 2026)",
+          "Monthly Production/Offtake Data (Jan/Feb 2026)"
+        ],
+        "tradeSetup": {
+          "entryZone": "422.00 - 429.00 (Buy on dip to breakout candle)",
+          "stopLoss": "405.00 (Below recent breakout gap/swing low)",
+          "targetPrice": "475.00 - 480.00 (Analyst target extension/Psychological level)",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "livemint.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhkBJgag_TvlRU14TwbsWsR0LW2eUafbWRvf6McrrsnaK_egEmcKwhqVeisDJyRlGgDfN03cP867joJ0RnyD94R8JRrh0-zGA8x6-wSQxMhGpNq0IIbJbF3O0QSvhYF_pmbJAredStxR3qpiAd2TPGB3LgGPEDqGWUYnrbJJDN4zqzQx7JbQ=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TORNTPOWER.NS",
+      "signal": "BUY",
+      "price": 1399.4000244140625,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 1210.04, Orig TP: 1967.47)",
+      "analysis": {
+        "ticker": "TORNTPOWER.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 90,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal is strongly supported by fundamental catalysts in the 2025-2026 timeframe. Torrent Power reported a robust 50% YoY jump in Net Profit for Q2 FY26 (approx. ₹724 Cr) and secured a major Letter of Award (LoA) for a 1,600 MW thermal power project in Madhya Pradesh, entailing a ₹22,000 Cr investment. Additionally, a long-term LNG supply agreement with Japan's JERA enhances fuel security. Analyst sentiment is positive with targets projected toward ₹1670-₹1900 for 2026, driven by a recovery in power demand and capacity expansion.",
+        "fundamental_summary": "In Q2 FY26, Torrent Power delivered a 50% YoY increase in Net Profit to ₹724 Cr and ~9% revenue growth, driven by improved merchant power sales and operational efficiency. The company is aggressively expanding its portfolio with a new 1.6 GW thermal project and significant renewable energy additions (total renewable capacity crossed 200GW for the sector, with Torrent being a key player). Valuation remains reasonable (P/E ~23x) given the high growth visibility.",
+        "catalysts": [
+          "LoA for 1,600 MW Thermal Power Project in MP (₹22k Cr investment)",
+          "Strong Q2 FY26 Earnings (50% Profit Growth)",
+          "Long-term LNG Supply Agreement with JERA",
+          "Sector-wide power demand recovery forecast for 2026"
+        ],
+        "tradeSetup": {
+          "entryZone": "1395 - 1410",
+          "stopLoss": "1285",
+          "targetPrice": "1670 - 1960",
+          "riskRewardRatio": "1:3.5"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "NTPC.NS",
+      "signal": "BUY",
+      "price": 352.1000061035156,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 310.68, Orig TP: 476.36)",
+      "analysis": {
+        "ticker": "NTPC.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The technical signal is strongly supported by fresh momentum indicators observed in early January 2026. Search data indicates a 'Golden Cross' (200-DMA crossover) occurred on Jan 1, 2026, and a weekly MACD bullish crossover on Jan 2, 2026. The current price of 352.10 confirms a breakout above the recent consolidation range (335-345 INR). Fundamentally, while Q2 FY26 earnings (reported Oct 2025) were muted with a 4% profit dip, the long-term thesis remains intact with the successful listing of NTPC Green Energy (NGEL) unlocking value and the group's installed capacity crossing 83 GW.",
+        "fundamental_summary": "NTPC reported Q2 FY26 consolidated net profit of ₹5,067 crore (down 4% YoY) on flat revenue, impacted by higher fuel/finance costs. However, the company continues to aggressively expand, with group installed capacity rising to ~84 GW. The spinoff and listing of its renewable arm, NTPC Green Energy (NGEL), in late 2024 has improved the parent company's balance sheet flexibility and highlighted the value of its green portfolio.",
+        "catalysts": [
+          "Technical Breakout: Fresh 200-DMA and MACD Bullish Crossovers in Jan 2026",
+          "Value Unlocking from NTPC Green Energy (NGEL) Subsidiary",
+          "Capacity Expansion: Aggressive target of 130 GW+ by 2032",
+          "Defensive rotation into Utilities amidst broader market volatility"
+        ],
+        "tradeSetup": {
+          "entryZone": "350.00 - 353.00",
+          "stopLoss": "328.00",
+          "targetPrice": "415.00 - 430.00",
+          "riskRewardRatio": "1:3.2"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "NSLNISP.NS",
+      "signal": "SELL",
+      "price": 45.689998626708984,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 52.24, Orig TP: 26.03)",
+      "analysis": {
+        "ticker": "NSLNISP.NS",
+        "sentiment": "Bearish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is validated by the fundamental derailment of the privatization thesis. Reports indicate the government is unlikely to proceed with the disinvestment of NMDC Steel in the current fiscal year (FY26), removing the primary catalyst for the stock's valuation premium. Additionally, while revenue has grown due to the Nagarnar plant ramp-up, the company remains loss-making at the net level (reducing losses but not profitable). The technical setup involves a 'Death Cross' (50 EMA below 200 EMA), and the recent price bounce to 45 INR likely represents a 'retest' of resistance or a bull trap, offering a favorable risk-reward for short entry.",
+        "fundamental_summary": "NMDC Steel's financials show significant revenue growth (up ~179% YoY) as the Nagarnar plant stabilizes, yet the company continues to report net losses. The stock's primary investment thesis was the government's strategic disinvestment (privatization), which sources suggest is now delayed beyond FY26 due to operational and political roadblocks. Without this catalyst, the stock lacks the momentum to sustain high valuations amidst a cyclical steel sector slowdown.",
+        "catalysts": [
+          "Privatization Process Delayed (Unlikely in FY26)",
+          "Quarterly Net Losses (Q2 FY26 reporting reduced but persistent losses)",
+          "Technical Resistance at 50-DMA and 200-DMA convergence",
+          "Cyclical weakness in the Steel sector"
+        ],
+        "tradeSetup": {
+          "entryZone": "45.70 - 47.50 INR",
+          "stopLoss": "52.25 INR",
+          "targetPrice": "34.00 INR",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "RECLTD.NS",
+      "signal": "BUY",
+      "price": 380.6499938964844,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 333.09, Orig TP: 523.34)",
+      "analysis": {
+        "ticker": "RECLTD.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "REC Limited shows strong fundamental momentum with Q2 FY26 net profit rising ~9% YoY to ₹4,414 Cr, driven by a 17% surge in revenue and robust renewable energy loan book expansion. The stock is currently in a short-term uptrend (up ~6.6% last week) and trading above its 50-DMA (357), positioning it for a breakout test of the 200-DMA resistance at ~387. Sector tailwinds are massive, with India's power sector requiring ₹32 Lakh Cr investment by FY32, securing long-term demand for REC's financing.",
+        "fundamental_summary": "In the recently reported Q2 FY26 (Sep 2025), REC posted a consolidated net profit of ₹4,414 Cr and a 10.6% YoY revenue growth to ₹15,162 Cr. Asset quality remains healthy with gross NPAs continuing to decline. The company is aggressively pivoting towards green energy financing, with the renewable loan book growing significantly. Valuation remains attractive with a forward P/E well below sector peers despite double-digit growth forecasts.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected late Jan/Feb 2026).",
+          "Potential breakout above 200-DMA (387 INR).",
+          "Government's ₹32 Lakh Cr power sector capex push (NEP targets).",
+          "Continued disbursement growth under the Revamped Distribution Sector Scheme (RDSS)."
+        ],
+        "tradeSetup": {
+          "entryZone": "380.00 - 387.00 (Buy on dip or breakout of 387)",
+          "stopLoss": "345.00 (Below 50-DMA and recent consolidation support)",
+          "targetPrice": "490.00 - 523.00 (Aligned with Analyst Avg Target & Orig TP)",
+          "riskRewardRatio": "1:3.5"
+        },
+        "sources": [
+          {
+            "title": "tickertape.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV6lsfbcsz5Ahl6adesxdi4pjoFJF_n0ZcvgogNxgi_VKgu3IVvRRb3GIAWdjDBZTuUlwSeX9SDmTEv7-DVsQ8STvqIIEUt_GnMpHYo2GQBeQgh9REmFnzBpQyhwMLEhXhR4xX"
+          },
+          {
+            "title": "indiatimes.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbxQQuFBTIrGzcV2fXkiXPu3WsDE7iO2D_Z9hPUa9lqmrodBcUGeu5mlwERYVCK82ZIIxZtqgSBbHkKLENop6HOhGI2_trcJOX31SAkQ3uizWgPAoHe6RWSX72yf9CzFzzIMM8kbiglXxWI7m9ossoAINfpduxD--QcjhtcxNKaW7pRTmbJbGnHzcwX3XQoKbZ5XtNsaQPubmYsYTQegYKNY0QEp9vyoiLJJQeAQ5VTw-IAaxphU6z3LNCTrxXGQjA"
+          },
+          {
+            "title": "powerline.net.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMiIWXOjO0coGkV4izbruew_1t_OiY1QeH6WUTRlqIueR4Jgf76a-Mm9RrGkuT7krhaJGS7V7Jvo39CL6VJ4EwKBpI-MgNtiiE9qLIYASueT-c121DYMm9uM_3Sl8lLKSZSenO1VcS18M_ixc8XRG_-9cxj7K3yWEttIF1inQF_uyVq3AhyoNH9M8hPSt5F9dNCnSMsg3iZWdKOLQT7k4="
+          },
+          {
+            "title": "businessworld.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaXDj8Oq9dLUvLe21XTstnZv0oETFlZ4A_yXyfDT_JUww7v2bLyHXxBU1k5_E3JZkZGwWSbx2VZVAMPoWgeNbuhxit06teRkZxneLE0emBDNwb_SlPgWCA7-8wMZFzQP9xousCFByOQdundzDBViPCA9kl6pU1LO_Op6eC3-u2pP3v7iK_1wzpOSRzkANTOvbpE6DczOb6Mw=="
+          },
+          {
+            "title": "scanx.trade",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqcglmD30q9kf4ngSA6b6mqh3rAMZ_T6v5G5Dv8cp-yNbKZeE6jD4V-KBhNt60OFU1QQDbpDB6CUPACzH_KLwdnmIP6JNl3Jf52llFET7fGQzAZeZynIHDHgBge6OtUpqxs_b2KjA9fG-x-bzW_Ob64Gpzw0wwA-SEiFySboMJJ2IaB_ruAzRhKnZpZ-5L_eXGZwtysNkyx2UvLnpmtNepkWDnO_QQBGMbfibX3eUscKPSiaW9bcY="
+          },
+          {
+            "title": "trendlyne.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnoyBERiXx6LW5XrAnOyifGsz6K0qTiqk1D1hFexxeKCxMuSMN33j_rnom7aPxg3EekASiJTVxy4g6pvJzbMKPcqxh6tJZUS9m1RJpKs_MwXICikwTpM44gNtcElaJlOm-C-vpPBQh8JfJPzpTF02Kju4xDRCggmWJ06XI"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "IRFC.NS",
+      "signal": "BUY",
+      "price": 128.47999572753906,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 114.58, Orig TP: 170.18)",
+      "analysis": {
+        "ticker": "IRFC.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 78,
+        "validation": "Confirm",
+        "reasoning": "The stock has corrected approximately 35-40% from its peak of ₹229, stabilizing near a strong historical support zone of ₹120-125. This level offers a favorable risk-reward ratio for a swing trade. The technical signal (CE+QQE) suggests momentum returning from oversold conditions. Furthermore, the upcoming Union Budget serves as a significant sector-specific catalyst, with expectations of continued high capex for Indian Railways. While the long-term trend is corrective, the short-term setup supports a mean reversion move.",
+        "fundamental_summary": "In Q2 FY25, IRFC reported stable performance with a 4.4% YoY increase in Net Profit to ₹1,612 crore and a 2% rise in Revenue to ₹6,898 crore. The company maintains zero NPAs and a healthy dividend yield. Valuation has cooled from overheated levels, making the current price more attractive relative to its book value and sector peers.",
+        "catalysts": [
+          "Union Budget Expectations (Railway Capex Allocation)",
+          "Technical Rebound from Major Support (₹120-125)",
+          "Oversold RSI levels triggering value buying",
+          "Stable Q2 FY25 Earnings providing a floor"
+        ],
+        "tradeSetup": {
+          "entryZone": "128.00 - 130.50 INR",
+          "stopLoss": "114.50 INR",
+          "targetPrice": "150.00 INR (1st), 170.00 INR (2nd)",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "bajajbroking.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl1dQST-E8jqXiOFZa-MW8CLSjlc8ZjY7btbeL8qG84S9oS73IODJCkGKl0qESVHgA03qLF610ZyMKaCDLH6J_9PRzFndl7TyEUWGfIn5Lyllf7-QMOd4M_SEyouczMnZ3i4FEqUGmAVAieH8D3oRQIrdMRQ=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "RVNL.NS",
+      "signal": "BUY",
+      "price": 365.8500061035156,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 332.91, Orig TP: 464.68)",
+      "analysis": {
+        "ticker": "RVNL.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 82,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal aligns with a strong seasonal catalyst: the upcoming Union Budget 2026 (Feb 1), which historically drives 'pre-budget' rallies in Indian railway stocks. Despite recent weak quarterly earnings (Q2 FY26 profit declined ~20% YoY due to margin compression), the company's robust order book (approx. ₹90,000 - ₹97,000 Cr) provides long-term revenue visibility. Recent order wins, such as the ₹201 Cr wagon workshop project (Dec 2025), continue to fuel news flow. The stock has corrected ~15% over the last year, making the current valuation more attractive for a swing reversal.",
+        "fundamental_summary": "RVNL reported mixed fundamentals for FY26 so far. Q2 FY26 (Sept 2025) consolidated net profit fell ~20% YoY to ₹230 Cr despite a 5.5% revenue increase to ₹5,123 Cr, indicating margin pressure (EBITDA margins contracted to ~4.2%). However, the balance sheet remains healthy with a massive order book >3x annual revenue. The market is currently pricing in 'budget optimism' rather than immediate earnings growth.",
+        "catalysts": [
+          "Union Budget 2026 Expectations (Railway Infrastructure capex boost).",
+          "Recent Order Win: ₹201 Cr Wagon Workshop project (Dec 2025).",
+          "Technical Breakout: 5-day moving average crossover and oversold bounce.",
+          "Projected Order Book target of ₹1.5 Lakh Cr by FY26 end (Management Guidance)."
+        ],
+        "tradeSetup": {
+          "entryZone": "365.00 - 372.00 INR",
+          "stopLoss": "330.00 INR",
+          "targetPrice": "440.00 - 465.00 INR",
+          "riskRewardRatio": "1:2.8"
+        },
+        "sources": [
+          {
+            "title": "munafasutra.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgcg5Vor_Iu3A3NhnOgd1j03nQ-zs01BMSnDF_hHcm1u56PEwpvNi-yO4P4XJAeBPNQMfPDHnP-22G7MDj_e-dj4erZQgYQSEXf2vuY2LocpWgQJbvtQQ7LJ9bm9sBwI7FW-4="
+          },
+          {
+            "title": "trendlyne.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk9FHy46_ka8YFXw73WtVqZcuAajxQBhffLT6ODh3Sn9WNae5GbJ36Jt15it4P9jMqzxi9cVkISgVKQDayN_brbKJ-laJcWmkb3fueuMzqhBuvX4z08kJE_TondyaLxJLdQ0ZpKAPIIoWRic8LBjzyk1V5BBxhjV0DOt5O8g4vNRytsthiNCUN7BHoQOA3YV8="
+          },
+          {
+            "title": "ndtvprofit.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQO47KtL1ch2VgqciDcu7br6inqqSM17Y61X6PeDJYSBvPQ9s_rl3zOZfY26IPy--dkZtRr19BOvZ0iEc2W6y47FmpXC9LfQmqSmm-zjSBIevEZA_3L4cbyfksrhSBuOvOQlFhZ904zEqFfm5r-bayNcY9DlKx33UcKteh1u3V3_KEFSxWQuBu35PuL9gbzHFIMO_wwvtfvbsu1e4uxpWMT02u"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "KFINTECH.NS",
+      "signal": "BUY",
+      "price": 1082,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 934.26, Orig TP: 1525.23)",
+      "analysis": {
+        "ticker": "KFINTECH.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal (EMA 50/200 Cross) aligns with a fundamental recovery phase as of early 2026. KFin Technologies has reported steady Q2 FY26 results (Revenue +10% YoY, PAT +4.5% YoY) driven by robust SIP inflows and international expansion. Analyst consensus remains 'BUY' with an average target of ~1324 INR, offering ~22% upside. The stock is recovering from a correction, and the crossover signals renewed momentum in a duopoly market structure.",
+        "fundamental_summary": "In Q2 FY26 (ended Sep 2025), KFin Tech reported Consolidated Revenue of INR 309 Cr (+10.3% YoY) and Net Profit of INR 93.3 Cr (+4.5% YoY). EBITDA margins remain healthy at ~43-45%. The company is seeing faster growth in its International/Issuer Solutions segments compared to domestic MF business, diversifying its revenue mix.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected Feb 2026).",
+          "Record SIP inflows in the Indian Mutual Fund industry boosting AUM servicing fees.",
+          "Expansion of global fund administration services in GIFT City and Malaysia."
+        ],
+        "tradeSetup": {
+          "entryZone": "1080 - 1095 INR",
+          "stopLoss": "1025 INR (Below recent consolidation support)",
+          "targetPrice": "1325 INR (Analyst Consensus Target)",
+          "riskRewardRatio": "1:3.5"
+        },
+        "sources": [
+          {
+            "title": "business-standard.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERJopQNWXFtQq0Nzp7MFKV-AZUUZhvEwYl4iCYVu8TgYo3nS3TbPkd1DzVcaz2E6N8ZvmQfi3JfCTKqNIMu0_zRV33GpHl2B5uKHm1hLJlCuq9hRwth0Qs3LIH-Mm2_z_BJTKfYBwv4Ocibe7-_HeQSHZ3J-lu4oIACZH1-OloKGCn_CIfdM77i3YtB5zNUKIerdr72USheHqJ-tOgtPYS9_Ab2pJ1RdezMoB3kZotYro="
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGomIdthlTt5mmVb6prpd8SBWi9CpjqnGyW6eKhG_yMUlrCEDCMcTnkuWCvdJ0fo0HpDj74DFsLRapbDoZQU69w7KuhPqsLhL3Sb6IbDvQm1o3hg1P_VJ6Z9pDESiuOFz8ByC9Jb2UNk0FlyqxCfyy4o7F7gvle7EU-iIaFfkLJeZGK"
+          },
+          {
+            "title": "indmoney.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRiCeYRi0MxaN7lG2S3vgnxAKyB8hR1QNFNV2ngJnPkH9VddiH5eO2aApLfFr4xIv--yGqja6Q0XLJVFh6SnzMmc5kE5z5ZpKPBDB2lL3IWNCZubysp-j-HvQeiBu8TvtfT3JyWRFtMXMIfgAbSJNTGCGW_EgAn-UF0ZIQ"
+          },
+          {
+            "title": "icicidirect.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhNoOdYctd7TEHSVOfxdeI0xAFpXpAgPFuAmxRaNQJnl-29_Ou58cBYk-nzKIIaZUi3Jz8wvgGvP2zo71V9-ADU9hrpPjU2RI8MTFBOtbrm-5Fqg-UvOR2F0DxqEPYVp4uTZnN2ogU1mWrmt7wmoa1dKGiv79v8wgdr-ILTrkSiMnd30NxVsuznzc="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "JWL.NS",
+      "signal": "BUY",
+      "price": 338.25,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 276.16, Orig TP: 524.53)",
+      "analysis": {
+        "ticker": "JWL.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The signal aligns with a powerful sector rotation back into Indian Railways stocks (Jan 2026) following a 17-month consolidation. Jupiter Wagons has confirmed a technical breakout with high volumes (stock zoomed ~30% in recent sessions). Fundamentally, the company has resolved critical wheelset supply chain bottlenecks, evidenced by a 67% QoQ revenue jump in Q2 FY26, validating the recovery thesis despite YoY weakness.",
+        "fundamental_summary": "In Q2 FY26 (reported Nov 2025), JWL posted a 49% YoY profit decline due to supply constraints but demonstrated a massive 67% QoQ revenue surge and 46% QoQ profit growth as wheelset deliveries normalized. The order book stands at a healthy ₹5,538 Cr (approx. as of Sept 2025), providing clear revenue visibility. Analyst consensus targets average around ₹485, suggesting significant upside from current levels.",
+        "catalysts": [
+          "Sector-wide trend reversal: 'Rail stocks roar back' headlines in Jan 2026.",
+          "Pre-Budget rally expectations (Union Budget in Feb).",
+          "Resolution of wheelset supply chain bottlenecks boosting execution speed.",
+          "Recent order wins (e.g., Ambuja/ACC contract) aiding order book replenishment."
+        ],
+        "tradeSetup": {
+          "entryZone": "335.00 - 340.00",
+          "stopLoss": "305.00",
+          "targetPrice": "400.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "trendlyne.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjuM94kqv2AHGNg7GM0hiE0vTwts8dMI_0PyImVCE3igWSy23XfLQr5HYkZyz2eia74Yh2b7ETcySuPXCd4IdEf9glJCwh8Sa17r0op7NoaK6aGfsn9KwiWsNcBieR-4n4iJpGsrsGc3W1gysvh6itQc1s6wu3yBY="
+          },
+          {
+            "title": "indiatimes.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIhHwrLIcsh59VcqBFX7PB-DoJq8DtxFO38QTp6E-wBUDQSG_I3mrZQbZ_2orJXA-PPUatcUBGBdKRqV1ouS6zeuiftC2XUdbKW8aGnKlhp6QvdozmO2T5QZYF19guODdgASROCZt-Tvbj2Ifz9UpVENVqGxnlk4krdA-QlLpNwWLPgghnm-8ZLI9Zgt3KUKe0xEqyvBSnGV0_UGFb5oMXNB5uZea3nEMFvepF6ueOrud5hnqXNZtY5TfW8g=="
+          },
+          {
+            "title": "kotaksecurities.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXfna6DRjBF_c0_5JPsGurmDSeJXmo8wcV6IRrdMxgGH_9qNCozjCuyLUOoKeBnAoSsmPn0gesXC8FQFI-jCZeYPASHvE4pUSGB-_ILvc0N_X5MfbWh2-f8DnHb8JTNdd4QgVVNQhozAlVKA-iFN5cX5BiDrNiCH0E6ug6DguNz-kGw0H12gbGRhYxG0XCHtG4z1NI"
+          },
+          {
+            "title": "businesstoday.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRB2cs3cgQKFrdB8xhQttK1h6DNYbrXGO4X70RnU8xbCUUNSBJLLUNesvgjA3dTVVVzw9ImWtyPL9ANJdeFPyNpdmOgOpkZS75uYYXTl50evxcb8UYwfz1b9OOHG-9pAR2jLx2KxpeoFrPrE54rsoMiu-FoOLXajLXF__wtQmU8BHnpsUK68_vdAgRxaPkHnvG825xUEfQaq_gw9-XaoSYr9eTQ1xmMIRJVucdkGWyIGTK09xc"
+          },
+          {
+            "title": "groww.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUxGu9LAJmh8jIA661hrnCPRVyrssqxIqf1Z5UD9Bf5LCX1LritrpTB26MRH_7uMjp_7Zi7iMxPVBqKVuxtjY3VfappbsJp1ElHwF8f6DLhm-dIvQ10poDj8gwaucU4NjZzW0ZAuPg3Wb_zxUfK3EJ2D_Gj991Rz7ToOGdxSBFyE="
+          },
+          {
+            "title": "venturasecurities.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHVQNmIKYWRZ-ZaW3uhuzU7Nz9dNRuDBpPYW6SGabhB9c_6fL0gKjHmCN89a8OjZ74InVHCL2iYgM1Q2nm4CUde4J6nouQEnd0d2equAs3IknOfQwyHfC4BG9CkQk2dhMAUKRG0v2urFod69quVACKgYve5iOVc21Rxv7nnj7HvpPVZVy78vqUG33uuwxRP4GyP5Yio1xR75jw1DyQ2Q=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SBFC.NS",
+      "signal": "BUY",
+      "price": 102.98999786376953,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 90.33, Orig TP: 140.97)",
+      "analysis": {
+        "ticker": "SBFC.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal is strongly validated by robust fundamentals and significant institutional interest. In Dec 2025, marquee investors Temasek and Tata AIA bought a 1.4% stake (~₹161 Cr), signaling high conviction. Q2 FY26 earnings showed a 30% YoY PAT growth and 29% AUM expansion, outperforming the broader NBFC sector which faces headwinds in unsecured lending. SBFC's focus on secured MSME (83% of book) creates a defensive moat. The EMA 50/200 cross likely marks a trend reversal following the stock's consolidation phase.",
+        "fundamental_summary": "SBFC reported Q2 FY26 Revenue of ₹410.78 Cr (+30% YoY) and PAT of ₹109.13 Cr (+30% YoY). AUM stands at ~₹9,938 Cr with stable asset quality (GNPA ~2.77%). The company maintains a healthy capital adequacy and is well-positioned to benefit from expected interest rate cuts in FY26.",
+        "catalysts": [
+          "Institutional Stake Buy (Temasek/Tata AIA) in Dec 2025",
+          "Q3 FY26 Earnings Release scheduled for Jan 24, 2026",
+          "Anticipated RBI Repo Rate cuts in 2026 boosting NIMs",
+          "Continued AUM growth above industry average (25%+ vs 15-17%)"
+        ],
+        "tradeSetup": {
+          "entryZone": "102.50 - 104.00",
+          "stopLoss": "90.00",
+          "targetPrice": "135.00 - 140.00",
+          "riskRewardRatio": "1:3"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEbbAmVif1gmXulFriE2v4JgK7-bKU8xJBJ6BSj6_Qd8cePBOvsT1kmzjOQgztMNLN_LKhyMzgIyXXSet1tOvJDpyiHE9XfB_RS_X4Wu7rNmtOCQbJ1Cu1Bpbo517C2N0D2ewvzyRubhign5Y2GltHGY0z7nd5PG4PORADLORekT4gn5jl1j5kAa36RPzixRPgAGS1GK1pctZI_qfXPHv4xHWCIUMhYruStFavLixxBvYwca4="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "UNITDSPR.NS",
+      "signal": "BUY",
+      "price": 1381.5999755859375,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 1253.30, Orig TP: 1766.51)",
+      "analysis": {
+        "ticker": "UNITDSPR.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 75,
+        "validation": "Confirm",
+        "reasoning": "While the immediate price action is below the 50/200 EMAs suggesting a deep pullback, the fundamental backdrop is robust. United Spirits reported a 36% YoY net profit growth in Q2 FY26, driven by its premiumization strategy ('Prestige & Above' segment). Recent regulatory headlines (Punjab penalty, Chandigarh license) are immaterial to operations. The technical 'Golden Cross' remains structurally valid as a long-term indicator, and the current dip offers a value entry ahead of Q3 earnings.",
+        "fundamental_summary": "In Q2 FY26, United Spirits posted strong performance with Consolidated Revenue rising ~12% YoY and Net Profit surging 36% YoY to ₹464 Cr. Margins expanded due to cost efficiencies and a better product mix. The company successfully resolved minor compliance lapses in Chandigarh and Punjab with negligible financial impact, maintaining its operational guidance.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected Jan/Feb 2026).",
+          "Union Budget (Feb 2026) potential announcements on excise or ethanol blending.",
+          "Continued volume growth in the Prestige & Above segment."
+        ],
+        "tradeSetup": {
+          "entryZone": "1375 - 1390",
+          "stopLoss": "1250",
+          "targetPrice": "1650 - 1760",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "screener.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PQWkoAnmCLZpIEGsaB61hDlGQGx26HPrH9ZxprrbdpIxmYs-_F2P4CQ7buG3Cn7E5784jGmDixw4trlfs3fVI7AJDR3rCLHPOHxsykP6nHiblBQoqg2wfIcBWqa0uixnGpvke5cciM0CluMI_gSO"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "WAAREEENER.NS",
+      "signal": "BUY",
+      "price": 2866.300048828125,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 2337.74, Orig TP: 4451.98)",
+      "analysis": {
+        "ticker": "WAAREEENER.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 82,
+        "validation": "Confirm",
+        "reasoning": "The 'BUY' signal aligns with strong fundamental catalysts despite recent price correction. As of Jan 3, 2026, Waaree has secured a massive 1.5 GW solar module order (1 GW DCR compliant) and commissioned a new 3.05 GW inverter facility in Gujarat, significantly boosting revenue visibility for FY27. While the stock has corrected ~23% from its all-time high of ₹3,865, this provides a favorable risk-reward entry. The technical 50/200 EMA cross (valid now as listing was >1 year ago) suggests a structural trend alignment, though short-term momentum indicators like RSI are resetting. The fundamentals (order book >20GW) overpower the short-term bearish price action.",
+        "fundamental_summary": "Waaree Energies reported robust Q2 FY25/26 numbers with net profit rising ~15-17% YoY. The company is aggressively expanding with a new inverter manufacturing plant operational as of Dec 29, 2025. The recent 1.5 GW order win (Jan 2026) reinforces its market leadership in the DCR (Domestic Content Requirement) segment, insulating it from import volatility. Strategic entry into F&O segment also improves liquidity.",
+        "catalysts": [
+          "New Order Win: 1.5 GW solar modules (Jan 2026)",
+          "Expansion: Commissioning of 3.05 GW solar inverter plant in Gujarat",
+          "Earnings: Upcoming Q3 results on Jan 29, 2026",
+          "F&O Inclusion: Enhanced liquidity and institutional participation"
+        ],
+        "tradeSetup": {
+          "entryZone": "2850.00 - 2880.00",
+          "stopLoss": "2690.00",
+          "targetPrice": "3350.00",
+          "riskRewardRatio": "1:2.8"
+        },
+        "sources": [
+          {
+            "title": "chemindigest.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJCmSrzODlQBi-ZxnUydUV1P1brt0d7vuDiN2_AiYcDaJHHxGvWDHtTn01nstkUd-hlhUigaXYHKzeImKk6OpX5rzRUiqkc5A3fzx-E49ClWH8m1bImvLJfe29apCHVoQAHPlTGDBU1zbluJP1ou-Z73cgAwayxyC1yw=="
+          },
+          {
+            "title": "whalesbook.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy34cZ4l-IhdcXWBE5UijGEUNAA8BQiIFoQRiqztuCyIlYeuuX3-aTBfNNbWDVGpG6NOAzhRfiGe39QMJhc63THw7xFrpIqCMqG0DgbYU58vYrZoHcHMRdZkbVWrfa1KNnS9oMjZ6MXa7BAU52GaFMzWEb76d0z1dwmYvCt6cXqFHMhkXzYcbs_dN-9H-sYUhM8_sVwxhJ8_MFbkulD2QwVbWCVA3vPj-Rru3IPW7_LBEcfpVx90yKb6B4pqAbtq1X-IqbcsWnm4lDIaTP-h53xpY9nh5tNWMXYQa-4TgYSaL1bE5tOxM7ZqbXj8Tl2VY="
+          },
+          {
+            "title": "screener.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRv2ZCI1K1i7flrNGilATEQGyPhcJqwp036hd8R6RZ-OxvjxypLiFKjoUa5aPTEjmISLxy6O9y9xdP9TdfpMwx7biS6dSgNj4Edoa0XremSDXUvpw49Cril6PD1i-cTTj3BHJUufba9hfKaN4F2h1TkEVp"
+          },
+          {
+            "title": "pv-magazine.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7jVStLgI2Xt3H-KoJKYrrnYsY0hfIu1s1EVdWxrgoJIyGlgUI3F8BLdKmK7VpWh-du5FeeDZKyezV1eI_TZfSKxkrwR22ZedyTGmGvfG6h9l6ZkjO41eoqCayhstv7tw5VShqhnXSipwXfKFe18zkFaYSXMlIZQMfwwzl3eXwaZ6mhteB7GDvCDTBIj-A-zc6x5pVealQcmbf0HVZXgtE8wAeGH7p5E33"
+          }
+        ]
+      }
+    }
+  ]
+}
