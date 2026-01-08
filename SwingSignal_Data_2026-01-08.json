@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "generated_at": "2026-01-08T00:35:19.569Z",
+    "total_signals": 13,
+    "filter": "Strong/Confirmed Signals Only"
+  },
+  "signals": [
+    {
+      "ticker": "LUPIN.NS",
+      "signal": "BUY",
+      "price": 2214.300048828125,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1900.40, Orig TP: 3156.01)",
+      "analysis": {
+        "ticker": "LUPIN.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal (Supertrend Flip) aligns with a fundamental recovery narrative. After correcting from its Jan 2025 all-time highs (~2402), Lupin is regaining momentum in Jan 2026, supported by strong Q2 FY26 earnings and analyst upgrades (targets raised to ₹2400-₹2600 in late 2025). While recent FDA observations (Form 483 at Goa and Nagpur in late 2025) present a risk, the market appears to have priced this in, focusing instead on margin expansion and the GLP-1 opportunity. Valuation remains reasonable (PE ~22x) compared to historical averages.",
+        "fundamental_summary": "Lupin continues to demonstrate growth in its US and India businesses, with significant margin improvement reported in recent quarters. Key positives include the exclusive GLP-1 partnership with Gan & Lee and zero FDA observations at its Pune Bioresearch facility. However, compliance remains a watchpoint with recent Form 483s issued for the Goa (7 observations) and Nagpur (6 observations) facilities in late 2025.",
+        "catalysts": [
+          "Analyst upgrades (JPMorgan, CLSA) with targets up to ₹2600",
+          "Strong Q2 earnings and margin expansion",
+          "GLP-1 obesity drug partnership opportunities",
+          "Technical breakout above ₹2100 resistance",
+          "Recovery from 2025 correction phase"
+        ],
+        "tradeSetup": {
+          "entryZone": "2210.00 - 2225.00 INR",
+          "stopLoss": "2080.00 INR",
+          "targetPrice": "2450.00 INR",
+          "riskRewardRatio": "1:1.8"
+        },
+        "sources": [
+          {
+            "title": "angelone.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnFBL25Zhi8SP6zFrkVHgWNkzl1NT_4Qxc97gNlQEf-HFda822w3qtxs3DbZuorEjhmG7Wa0ioO3uBES6CPu7Rh2AJyj-hOksURZdTsgIk9zTmvR5w1rWhin1qoVno--EzC7Y1B-ile1n-8uLgdKfYOLB4pvPoDSmfg3c="
+          },
+          {
+            "title": "gurufocus.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpZTdfJT7itS6blarYQr5GXCuVt0er843zlFd2rtIHmcnRbOkZicRYIKqKRZbyDA_NVARDjV5hrf9dT_biOqmq1Yj0WC3ZqTOWGl59p_kbzkNHHuzTCcu5N051SIFXsanwpOBwUPK13yKijh2_oyqPzjKNrU1KUcLZDjmLDxkrbjmHryl-1FuJPJ2IGXO45HsKpuwsnvwZYsEcgjdvKB73pSsRBQ2Uy3jhBXVlCp3UtDGOwnZwhscLJjDMkREPjIs9Ji40MjWOt9JDqiPF"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "JBCHEPHARM.NS",
+      "signal": "BUY",
+      "price": 1933,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1670.43, Orig TP: 2720.70)",
+      "analysis": {
+        "ticker": "JBCHEPHARM.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 80,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal coincides with JB Chemicals trading near its 52-week and All-Time High (~1936 INR) as of Jan 2026, confirming strong momentum. Fundamentally, the company reported robust Q2 FY26 earnings with a 19% YoY increase in Net Profit to ₹208 Cr, driven by double-digit growth in domestic formulations. Persistent M&A speculation regarding KKR's stake sale (potentially to Torrent Pharma) provides a valuation floor, although the high P/B ratio (7.5x) warrants a strict stop-loss.",
+        "fundamental_summary": "In Q2 FY26 (Quarter ending Sept 2025), JB Chemicals reported Consolidated Net Profit of ₹208 Cr (+19% YoY) and Revenue of ₹1,100 Cr. The company continues to outperform the Indian Pharmaceutical Market (IPM) with strong traction in its chronic therapies (Cardiac/Gastro) and CDMO business. Operating cash flows remain at record highs.",
+        "catalysts": [
+          "Q2 FY26 Earnings Growth (+19% Profit YoY)",
+          "Potential M&A: KKR Stake Sale / Torrent Pharma acquisition rumors",
+          "Expansion in CDMO and Domestic Chronic Segments",
+          "Technical Breakout above 1900 zones to ATH"
+        ],
+        "tradeSetup": {
+          "entryZone": "1930 - 1940",
+          "stopLoss": "1840",
+          "targetPrice": "2150",
+          "riskRewardRatio": "1:2.4"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "NATCOPHARM.NS",
+      "signal": "BUY",
+      "price": 946.0999755859375,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 754.37, Orig TP: 1521.30)",
+      "analysis": {
+        "ticker": "NATCOPHARM.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 75,
+        "validation": "Confirm",
+        "reasoning": "The technical signal (Supertrend Flip & Golden Cross) aligns with a value-buying opportunity. While Q2 FY26 earnings showed a YoY profit decline (down ~23% to 518 Cr due to high base effect), revenue remained stable at 1463 Cr. The stock is trading at an attractive valuation (PE ~11x), significantly cheaper than peers. Recent price action indicates a reversal from the 52-week lows, supported by the 200-day moving average (~870 INR). Analyst consensus suggests a potential upside to 985-1150 INR.",
+        "fundamental_summary": "Natco Pharma is navigating a high-base effect from gRevlimid but maintains a robust balance sheet. Q2 FY26 revenue stood at 1,463 Cr (+5.2% QoQ), with a net profit of 518 Cr. The stock trades at a compelling PE of ~11x. Key growth drivers shifting towards the Agrochemical division and complex generics pipeline (Semaglutide/Olaparib) to offset Revlimid concentration.",
+        "catalysts": [
+          "Technical Golden Cross (50 DMA crossing above 200 DMA).",
+          "Expansion in Agrochemical business (Crop Health Sciences).",
+          "Pipeline progress on complex generics (Semaglutide, Olaparib) for US markets.",
+          "Attractive dividend yield (~0.6-1%) providing downside support."
+        ],
+        "tradeSetup": {
+          "entryZone": "940.00 - 950.00",
+          "stopLoss": "870.00",
+          "targetPrice": "1100.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "tipranks.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8WpBjBQp2fdU0jAjO1BFGF_i0bLWL0ywLs2UJwgeyZN9vpZyUBbcJ44dyhny0IFzJW5DN0Vj1alccqaF8qpsktPXSr8Xr7JX-CJ0zQzgO0H-35Qsmj5npf-vMeysOEjMNiThYEyoL15g6wB-3vt0q2pa0gYC2VfNsqc="
+          },
+          {
+            "title": "screener.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-6H5AzI4QZU8Ew0HIZHQOxEFIJjcPMD7w9PT0SLmobLhPBNAvjWtvmgu4W9yW0ZHp_ojHaUQTcHyjX2IbszV_cQzDIrptdjo8Sxei1LVQB3dIAvb_OnTHSL0IUosqreU-LX3TMdWkjlbI8wViQ6gnDAVM"
+          },
+          {
+            "title": "shareprice-target.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfJWHlxpTudZcog5CHPwXjCcy0jyCLwrh8YMk7I5rN7eQ8GQh6njTYr__aqfCjQVsRPi-CviWQ6xkwZEfOA_X3Rb_CP3UFvEruqNVGvOGQi0S8du4sUsc-_PVf4-yfTMwWYB_BXEBSPGV1q7qyr_48-c0OmSDpZSqg"
+          },
+          {
+            "title": "way2wealth.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-6tfaURUI6SCFSxlhiwMmo_MeoPAfBqpJ4velCVaYXlcbG-1EudmDQCUQX8U7hNRLydXdKFhcKgt0kcd-0qemXn2aPdRNstm6XR0tlTONubIf5LnWXBdpCXK6sskFXzWL2kOUo2afMID2lQAMCadtew=="
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3sw3ix8kzvFMivqPwtTarBCV7ySwxB0WXPNhIUkwMYCnEn8Y64UOBM8qeH0l0mFyOMcR8LzEp4qJmBVopkaMDHddoQYwMAUq7BKWc24v1RVmh53wflHCB7JgBqBw2l7xcptQg-Jkbv7r8Yvkh_IrIDkMkOGOswU-9sLcCEJO1NKzcp11Yd__blI0sr0hFmXDGoajSRH4RBQfMvSXYNxOqD3CtA-qcvBYE5jw_X4BweQ83oxOW4FotITSZmA="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SCHNEIDER.NS",
+      "signal": "SELL",
+      "price": 710.1500244140625,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 848.57, Orig TP: 294.89)",
+      "analysis": {
+        "ticker": "SCHNEIDER.NS",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is strongly validated by a confluence of technical and fundamental weakness identified in the January 2026 context. Technically, the stock recently formed a 'Death Cross' (50-DMA crossing below 200-DMA) in late December 2025, signaling a major trend reversal, and is currently testing key support at ₹700. Fundamentally, Q2 FY26 earnings (reported Nov 2025) showed a 3.59% YoY decline in Net Profit despite revenue growth, indicating margin pressure. Furthermore, the stock trades at a high valuation (P/E ~69x vs Industry ~38x), prompting downgrades from agencies like MarketsMojo to 'SELL'.",
+        "fundamental_summary": "In Q2 FY26, Schneider Electric Infrastructure reported a Net Profit decline of ~3.6% YoY to ₹52.32 Cr, despite an 8.4% rise in revenue, highlighting operational inefficiencies or rising costs. The company's valuation remains stretched with a P/E significantly above the sector average, making it vulnerable to correction during broader market weakness.",
+        "catalysts": [
+          "Upcoming Q3 FY26 earnings (expected Jan/Feb 2026) with risk of further margin compression.",
+          "Technical breakdown of the psychological ₹700 support level.",
+          "Sector rotation out of high-valuation Capital Goods stocks due to slowing momentum."
+        ],
+        "tradeSetup": {
+          "entryZone": "708.00 - 718.00",
+          "stopLoss": "755.00",
+          "targetPrice": "625.00",
+          "riskRewardRatio": "1:2.0"
+        },
+        "sources": [
+          {
+            "title": "topstockresearch.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv2ifjVlmOzWNdGUYOsGKwlA6aQruGuQ3Wr5eDPGCl_XKe0jqzmXnbUTC3xyVuCjyvTr--oVFKQftWDUhvqQ15rsMTEeE6-i05_i9IvsoXUGiEAhvQhiSa0k_XqkcR9f5c3gxeL5X7jpDJu4ei84ZPHKHRwFD76Tw1BaQ07PtU"
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHUCFq3BbSng8k-Zallbms5HNb-o3UUhQ6OlAjScYEArmT4I365qvafCb2PqP-c_B4HCf_kuHn6YlNVeToKBBkPl3Yj-ZEEq4J6E-FckhNM6FTLd3w48IDRzmYQTbxTWj85FtasELXlQq5EoUf_ZCiGZ2Z4eRYKwmPP7HKlOR8I1wEPSzKIaEFq_n6LzDaMi-njTcCeVVuxDZJ6g_o_YsWN4MIsOlmxz3qIJE0p2uinJA_IrhQ-z3cHWx5fU_hMoDIB-rO6jubXf4GgsVJX5ENDCxazbXBNn_Zqw=="
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE89XMHtzA0ngIp1nKieyj9IfqQ3twzj-pT8a2TEWHXameVQ4X2Pe6pP9kCq6-UHzChLjSuAzbWg0gQLfDntKcLr2WznZJ3mBMmo00jAgmGOwZXAkelEOEReRS48BgSD4nkxh3O98u152vFx6x1737AF7nLYZB3-f27FDc9SIY9zAjioVKWYVw="
+          },
+          {
+            "title": "stockinsights.ai",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqJd-nxeXO-0l17p0qBQe5UFndD15JarFGWF71Q1RoOtFLPLEotMdV0zo0d3HgnnyiavoF3TrZa2fOksgMLNu0Y3znvL9tJ1eleTVIt9VwhsB3K6cWjtw2oYz5rDDPQt_n0qFsRlnk_A8do2fpsiHhvHtmaFWATNIvPT839qjIVR412PG7BFAOuC0ZDotH"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "WIPRO.NS",
+      "signal": "BUY",
+      "price": 270.79998779296875,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 238.19, Orig TP: 368.63)",
+      "analysis": {
+        "ticker": "WIPRO.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The 'BUY' signal is supported by both technical momentum and fundamental recovery evident in the Q2 FY26 results. Technically, the Supertrend flip indicates a trend reversal after a period of consolidation (Current Price ~270 vs 52-week low ~225). Fundamentally, Wipro has returned to growth with Q2 FY26 revenue rising 1.9% QoQ to ₹23,645 Cr and strong large deal bookings of $2.8B, signaling improved demand visibility. The 1:1 Bonus Issue (Dec 2024) has improved liquidity, and the stock is stabilizing post-adjustment. With the IT sector outlook for 2026 remaining positive due to stabilized global macro conditions and AI adoption, the risk-reward favor a long position ahead of Q3 earnings.",
+        "fundamental_summary": "In Q2 FY26 (ended Sept 2025), Wipro reported Consolidated Revenue of ₹23,645 Cr (+1.9% QoQ, +1.6% YoY) and Net Profit of ₹3,262 Cr. Operating margins are resilient at ~16.7%. The company secured robust large deal bookings ($2.85B), indicating a turnaround in discretionary spending. Management remains optimistic about AI-led growth.",
+        "catalysts": [
+          "Q3 FY26 Earnings Release scheduled for Jan 16, 2026.",
+          "Potential Fed Rate cuts in 2026 boosting US discretionary IT spend.",
+          "Sustained momentum in Large Deal TCV ($2.8B in Q2)."
+        ],
+        "tradeSetup": {
+          "entryZone": "270.00 - 275.00 INR",
+          "stopLoss": "245.00 INR (Recent Swing Low Support)",
+          "targetPrice": "310.00 INR (Near-term Resistance / Gap Fill)",
+          "riskRewardRatio": "1:1.6"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "VOLTAS.NS",
+      "signal": "BUY",
+      "price": 1507.5999755859375,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1241.09, Orig TP: 2307.14)",
+      "analysis": {
+        "ticker": "VOLTAS.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 75,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal (Supertrend Flip) aligns with a strong seasonal accumulation period for cooling stocks. While Q2 FY26 (reported Nov 2025) financials were weak due to rain and inventory issues, the market is discounting a recovery in Q3/Q4 driven by 'pre-buying' ahead of the Jan 1, 2026 BEE energy rating changes and the upcoming summer season. Recent brokerage upgrades (e.g., BofA Securities to Buy) support a recovery play despite valuation concerns.",
+        "fundamental_summary": "Voltas faced a tough Q2 FY26 with ~75% drop in Net Profit and ~10% revenue decline due to a lean summer and high channel inventory. However, the stock is rebounding on expectations of inventory normalization and a demand surge from the implementation of stricter BEE norms effective Jan 1, 2026, which likely pulled forward sales into Q3.",
+        "catalysts": [
+          "BEE Energy Rating Norms Implementation (Effective Jan 1, 2026) driving price hikes and pre-buying.",
+          "Seasonal Pre-Summer Accumulation (January-March historically strong for AC stocks).",
+          "Expectation of Q3 FY26 sequential improvement in margins and volume.",
+          "Recent brokerage upgrades (e.g., BofA Securities target ₹1555)."
+        ],
+        "tradeSetup": {
+          "entryZone": "1500 - 1515 INR",
+          "stopLoss": "1380 INR (Recent Swing Low/Support Post-Q2 Earnings)",
+          "targetPrice": "1680 - 1750 INR (Near recent resistance and 52-week highs)",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "upstox.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-fM0xyTUeFd7DucGedxUDUiYDt8ivbNooC1M5SMs2lsDE3vzk9btau810ON7sm7tPkYmXG5vKFrZM4phO4dgPr2KUjTKuwEPEWmcSWoaJGasoRwlw0eMEamncHLGWLhtRnPM4isiXe2UWpmiZ5zCSfjkqO6BycL0pZnjeRCoPn2JobleuHprEc7iJckB9G7xe7SWTuw_V3zq_Hv5dkWbuFsE3LpHftyXdWATocYHQUeVfFjf-EdI="
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6kPlYl-R8RP-5Q-TQDDiE6O0sgVKCybbFOG40Os5xGC2suphMIdGpfTsS7ezC-kJAH5wIkVHl_9trivnK6Qqsdtv8DvNzKW9d_5ppE1vrF-yQUlXLGzc7CNaJZeAuB_SUcZOyUQTD9rBAKCkNSg-yGoltXicrkXE="
+          },
+          {
+            "title": "kotaksecurities.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbmdeEKdSUNcBaqyKM-z4cKsPjdSCl_fyvCvfgke87cgB3JhTqw6hqIAy4N-aBI2DD7FJaFoRQ8Sp8x9XEnIDs_QZWp5Z6LC_lyE_WtaBOKLFAadguUes1cyrWflbDmSS-bjiprz95lKO1zWwpppnvZsn8E_8NOQgysCnuAl5FoIZqT-DI49d_Va5zeQ=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "RECLTD.NS",
+      "signal": "BUY",
+      "price": 385.25,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 334.72, Orig TP: 536.85) | Supertrend Flip (Orig SL: 330.37, Orig TP: 549.88)",
+      "analysis": {
+        "ticker": "RECLTD.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal at 385.25 aligns with a compelling fundamental contrarian setup. REC Limited has corrected approximately 30% from its 52-week highs (~541), pricing in the power demand slowdown witnessed in 2025 (driven by weather anomalies). However, Q2 FY26 earnings (released Oct 2025) remained resilient with ~9% YoY profit growth. With the sector outlook forecasting a sharp rebound in power demand for 2026 due to weather normalization and EV/data center expansion, the current valuation (P/E ~5.9) offers a high margin of safety. The convergence of technical reversal signals (Supertrend Flip, CE+QQE) with deep value and high dividend yield validates the entry.",
+        "fundamental_summary": "REC Limited reported steady Q2 FY26 results with Net Profit rising 9.3% YoY to ₹4,415 Cr and Revenue up 10.7% YoY, despite a temporary industry-wide slowdown in power demand growth (1% in 2025 vs 5% in 2024). The stock trades at an attractive P/E of ~5.9x with a dividend yield of ~4.7%. The company maintains a robust loan book growth and remains a key beneficiary of India's long-term power capacity expansion targets.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected mid-January 2026) likely to show stable asset quality.",
+          "Sector-wide rebound in power demand projected for 2026 after a consolidation year in 2025.",
+          "Potential dividend announcement usually accompanying Q3 results.",
+          "Technical mean reversion from oversold levels (down ~25% over the last year)."
+        ],
+        "tradeSetup": {
+          "entryZone": "385.00 - 390.00",
+          "stopLoss": "330.00 (Below 52-week low and recent support)",
+          "targetPrice": "535.00 - 540.00 (Near 52-week highs)",
+          "riskRewardRatio": "1:2.7"
+        },
+        "sources": [
+          {
+            "title": "indiatimes.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVAtQckHu-dhwgUK4zU6N3Jrdb2H0j1cFOFFMbmvoB6vA6Jm62o5qOFag1csMQo8pk5yLkmvPPh2y0hfhFybAfncZl4ChDuhpYcYYVba4sGWGjSlYlna2WTZjnUpSO89Bkogh4Ew9QQkWxejbVLgPbzKHXTJwbnjIAPVvmEFRwX0sVXqaJvCQ="
+          },
+          {
+            "title": "trendlyne.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmrAkAYua2m4EsQQyqhq7-Vk4u0T1MCzW4j0akUPkr0cdVk1yhY1KksojEg7gLfE3kFoaI0BV2YuVmkngNxHkfUlQueQSL232DVoabcRkNJeelT8OXRr9fuYoC8b6GDNEt1CBKqPqMj_NjxkQ="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AUROPHARMA.NS",
+      "signal": "BUY",
+      "price": 1235.4000244140625,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1064.48, Orig TP: 1748.15)",
+      "analysis": {
+        "ticker": "AUROPHARMA.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The technical BUY signal aligns with a strong sectoral breakout in the Nifty Pharma index, which hit 52-week highs in early January 2026. Fundamentally, Aurobindo Pharma reported consistent Q2 FY26 revenue growth (+6% YoY) and margin improvement. While recent USFDA observations (Form 483s for Unit-IV and Unit-V in Dec 2025) present a mild overhang, the market deems them 'procedural,' evidenced by the stock holding firm and participating in the sector rally. Analyst consensus remains 'BUY' with targets extending to 1430-1640 INR, driven by new launches in the US/EU and CDMO tailwinds from the US Biosecure Act.",
+        "fundamental_summary": "In Q2 FY26 (Sep 2025), Aurobindo reported consolidated revenue of ₹8,406 Cr (+6% YoY) and Net Profit of ~₹848 Cr (+3.8% YoY), driven by 19% growth in Europe and steady US formulations sales. Valuation remains attractive at ~20x FY26E earnings compared to peers. The company is managing regulatory risks, with recent USFDA inspections at Unit-IV and Unit-V resulting in procedural observations likely to be resolved without material financial impact.",
+        "catalysts": [
+          "Nifty Pharma Index hitting all-time highs (Sector Rotation)",
+          "Strong Q2 FY26 earnings with robust growth in European markets",
+          "Expectations of margin expansion from Pen-G plant ramp-up",
+          "Analyst upgrades (e.g., Motilal Oswal, JM Financial) targeting ₹1400+"
+        ],
+        "tradeSetup": {
+          "entryZone": "1230.00 - 1245.00",
+          "stopLoss": "1165.00",
+          "targetPrice": "1380.00",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "tickertape.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm-AL4elhSep8sBBEf3yy6XJa7h3yRORhuj6ro9LJFE1vz4PnHYJmaw1q51zkulq4YlsexSwhS2eHKg2p5PxbamekZRcAc_jnQdJsKEkwxHmgfSF7Yu80pFVt7E7arnXm178M-BP9Fmw4OujTrTZOF"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "EIHOTEL.NS",
+      "signal": "SELL",
+      "price": 354.95001220703125,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 408.35, Orig TP: 194.76)",
+      "analysis": {
+        "ticker": "EIHOTEL.NS",
+        "sentiment": "Bearish",
+        "confidenceScore": 90,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is strongly supported by both technical and fundamental factors. Technically, EIHOTEL.NS recently witnessed a 'Death Cross' (50-DMA crossing below 200-DMA) around the 360-375 levels, confirming a medium-term trend reversal. Fundamentally, the Q2 FY26 results (reported Nov 2025) indicated a 12.2% YoY decline in Net Profit despite marginal revenue growth (1.6%), highlighting margin pressure from rising expenses. The stock is also trading in an 'Overvalued' zone relative to its historical averages, making it vulnerable to further correction as the broader hospitality sector growth normalizes to 6-8%.",
+        "fundamental_summary": "In Q2 FY26, EIH Ltd reported Consolidated Net Profit of INR 114 Cr (approx), a decline of ~12% YoY, while Revenue grew sluggishly by 1.6% YoY to INR 632 Cr. Expenses rose by 6.9%, eating into margins. The company faces a 'high base' effect from previous years, and while the long-term story remains intact with a pipeline of 20 properties, the short-term outlook is dampened by normalizing demand and valuation concerns.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected Feb 2026) likely to reflect continued margin pressure.",
+          "Union Budget 2026 announcements regarding 'Infrastructure Status' for hotels (priced in or potential disappointment).",
+          "Technical breakdown below 350 support level triggering further algorithmic selling."
+        ],
+        "tradeSetup": {
+          "entryZone": "354.00 - 360.00",
+          "stopLoss": "378.50",
+          "targetPrice": "310.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "perplexity.ai",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBVOmSWVuWJhO6rzC1dJDFCgFduXFuR5QDjS20Rw55Yujs9kbyFYejj-Asyjk_X9hciMn3fCHWrBSih8kL6K_5fQ-ONn5ofZ846eFoWn9mP2Bst0G3eWcCEnaiaYQvJOw2X5iU2_tI_Fh6CWkBQ1HU"
+          },
+          {
+            "title": "munafasutra.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj3hi1PA-fTLm6BVfQLBkR8nIDweY91o2BGaxfPLDXyu4aI3PmWbP59rQf4CWG4PZvyqF4Yv3isX2A2VYMeoG2FVLyVsHw8x65l_Unml7A9vB8uu59D8tHGaN6RZIgTxNMn8ALQ832Ml0="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MOTILALOFS.NS",
+      "signal": "SELL",
+      "price": 848.2000122070312,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1020.02, Orig TP: 332.73)",
+      "analysis": {
+        "ticker": "MOTILALOFS.NS",
+        "sentiment": "Bearish",
+        "confidenceScore": 90,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal aligns perfectly with deteriorating fundamentals and sector headwinds. Recent Q2 FY26 earnings (reported Oct 2025) showed a massive 68% YoY profit decline and 35% revenue drop, primarily driven by SEBI's regulatory tightening on F&O trading which has severely impacted brokerage volumes. Technical indicators (Moving Averages, RSI) are in 'Strong Sell' territory. The stock is facing resistance near 870-890 levels, and the Supertrend flip confirms the resumption of the downtrend.",
+        "fundamental_summary": "Motilal Oswal reported a sharp decline in financial performance for Q2 FY26, with Consolidated PAT falling ~68% YoY to ₹362 crore and Revenue down ~35% to ₹1,849 crore. The core broking business is under significant pressure due to new SEBI norms curbing F&O volumes (down ~27% industry-wide), which historically contributed significantly to the firm's topline. While Wealth Management AUM grew, it was insufficient to offset the broking slump. Valuations remain expensive relative to the shrinking earnings base.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected late Jan 2026) likely to reflect full impact of F&O curbs.",
+          "Continued regulatory overhang from SEBI on derivative trading norms.",
+          "Global market volatility impacting proprietary trading book profitability."
+        ],
+        "tradeSetup": {
+          "entryZone": "848.00 - 855.00",
+          "stopLoss": "890.00",
+          "targetPrice": "760.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9U6u1fOtAhpz7lBR5LmPl62nIPlx_4w_YpigbHXNGWt_yjolI8r2yzsg1bKLgG-SkZSOZGjfh_HwJSoCfv3m4iUYOmqcOhU8S2I8FSYKqfb6dN38igqRl7I4NhSuKlMeGOz2UjM85QphFTcPPUMyAOPZX4B4l7M9GoEJA7jAXcA=="
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3se0xyT18Evw3iZnN7R2YlbT2ps4ikbJAmjx_lxspo_JuXfjkqZYI01P4NNHnAd2q0tdAmp9hel7GAI9BE_R2VMZpT6nZNz4OvpEPBx1MACphGq9Hd8_BCqwMjYsWHdtCP1tOgiEINhR7qiTIamcCSEroskK1_yDq0orLiZok"
+          },
+          {
+            "title": "stockanalysis.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_nQnEc4FTWqlTZvN7Y0cMLayUGPfVKNRY5nN9Ijreo35trRUrS6StkI1XxIGnNJwGp6eR_-bN20hWQ7nBk2q3derBz-9QWs7oW54OfoSGgIpriOnUewAcbnS42ivd-8N0VzWr7RK5HHEP"
+          },
+          {
+            "title": "outlookbusiness.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES2nhjR9EFwkBKk-CXimFPtPiPWYx4ttEMVMxZ7vKWhYbN3oyio_hBc0qls4t_IB_Xo9_AwfstsN_2ekedcwd7EL4dhoCUPLaETu8PQ7-5u5p90s_AiyR7spyFHSrQhfae04a9cDeewDYRfuD_a8yb58K9-PqEE5dWrAlVeQlwwYP6FIBBAoW9UyPFIx9EjNZrwergja7JTXdrVAXtlgfLbDr6jLGqRloITHDruRI0ok_jEg=="
+          },
+          {
+            "title": "inshorts.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA5NusW2Uh-P3GzOAjyHeHA02GEST-XoP4u_3c7XTmy83-b7xMtyEVZkgBdyWyjQN09ZHCYF5s6SjAaMsMRn8XKijdawRXxlhr-CY6GFRk4vNucnEBocqA6vh09iUMHrjl1SmTY7MPgb2OtmhbdmA8OYqyh4tqRi-AYiZ0DhvgahLrgQx4PMq4TujiAoJE-49zTnZ3ipHKu-LGdb2TVFa-Ow=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MAXHEALTH.NS",
+      "signal": "SELL",
+      "price": 1034.699951171875,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1205.89, Orig TP: 521.14)",
+      "analysis": {
+        "ticker": "MAXHEALTH.NS",
+        "sentiment": "Bearish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "Despite reporting strong Q2 FY26 earnings (Revenue +24% YoY, PAT +74% YoY), the stock has failed to sustain momentum, exhibiting a classic 'sell on news' behavior typical of overvalued stocks (P/E ~72x vs Industry ~63x). Institutional data confirms distribution, with FII holdings decreasing from 54.76% to 51.80%. Technical indicators are bearish as the price trades below all key Moving Averages (50, 100, 200 DMA), and a recent Supertrend flip reinforces the negative trend. The divergence between strong operational growth and weak price action suggests the market is pricing in valuation compression.",
+        "fundamental_summary": "Max Healthcare reported robust Q2 FY26 financials with Net Profit surging ~74% YoY to ₹491 Cr. However, valuation remains stretched at a P/E of >70x. Institutional flows are negative (FII selling), and the company faces a recent GST claim of ₹55.20 Cr, adding minor regulatory headwinds. The stock's inclusion in Nifty 50 has brought scrutiny rather than just inflows, leading to underperformance relative to the index.",
+        "catalysts": [
+          "Continued FII/DII selling pressure due to high valuation.",
+          "Upcoming Q3 FY26 earnings previews (late Jan 2026) likely priced in.",
+          "Regulatory headwinds (GST tax claim).",
+          "Sector rotation out of high-PE healthcare names."
+        ],
+        "tradeSetup": {
+          "entryZone": "1030 - 1045",
+          "stopLoss": "1080.00",
+          "targetPrice": "950.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "trendlyne.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFgaXGGLGHdChKkHkQIszfz19eDV5FOkmcrM9x93ncQffL3PwECxXhApxkpm3cU7WUrWxDAdk1roxBNeF8cozEdicwzrMlnDh8VKYi2qj37T3oZYjK0a54t0BXLZoHZhwPjcRxq5OQ8tqf_rcBGedz1e5R_dFFaGXVoA7nSeZgPri4K4_zgZs72Sw0kMpFQE1EytB3dzd7Ne94Hg=="
+          },
+          {
+            "title": "indiatimes.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMHMGoV7Nyr8BcITqDg8TG-rxUd5mkawPsi0rco07Olsj73xwIZdFcMR2v3IR7vAyPbLJS5p1zh7pXZu4c_TVoS8xUBkFkw34cEygcjlq70mSkrmgqHpiUSLyB9VViJ6I5Y3Xi4NRNXHY2ATOZcctVjy1ubzg2I7JhO787RDX43uYkXnRRi8Z28l5Gq3aij6h_AYXg9OJq"
+          },
+          {
+            "title": "axisdirect.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgJdxfecJtzCN782moH8br30SkhO4NsAHZfEwXzisUderFKMFnt27ynlZwteAwFWjpJkTgzBDJB3L9uhTiIzdX0B-RJRFUrZMKK1E-7if1HbKRqgM50KFO6jURtSxDjyhWf_6JHDcqK41B3NMMbCsoQ4oZWirRCSJQ7FmLAz1RJ3NRSf_R3eqIb1bcQ5j8FEp7-dwgvkHOK6lFxrOQpcONp6pHnEc0nAe_"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "JYOTICNC.NS",
+      "signal": "BUY",
+      "price": 961.1500244140625,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 809.15, Orig TP: 1417.14)",
+      "analysis": {
+        "ticker": "JYOTICNC.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 82,
+        "validation": "Confirm",
+        "reasoning": "The technical signal (EMA 50/200 interaction) aligns with a strong fundamental pivot. Jyoti CNC is transitioning from a consolidation phase (post-IPO run-up and correction) into a growth phase driven by a massive capacity expansion plan approved in Nov 2025 (scaling from 4,400 to 16,000 machines/year). The order book of ₹4,546 Cr provides over 2 years of revenue visibility, particularly in the high-margin Aerospace & Defense sectors (44% of order book). Despite a high P/E (~63x), the forward growth form capacity addition justifies the premium. Recent price action shows support holding near ₹880-900, making the current level a low-risk entry for the next leg up towards ATH.",
+        "fundamental_summary": "In Q2 FY26 (Sep 2025), the company reported Consolidated Revenue of ₹508 Cr (+17.9% YoY) and PAT of ₹85.5 Cr (+12.7% YoY) with stable EBITDA margins (~24.5%). The company has a robust order book of ₹4,546 Cr (~2.2x TTM Revenue). A key development is the aggressive capex plan of ₹400 Cr to quadruple manufacturing capacity, signaling strong demand anticipation.",
+        "catalysts": [
+          "Capacity expansion to 16,000 machines/year approved in Nov 2025.",
+          "Strong defense and aerospace order inflows (Make in India tailwinds).",
+          "Technical breakout from multi-month symmetrical triangle consolidation.",
+          "Commissioning of expanded facility at subsidiary Huron (France)."
+        ],
+        "tradeSetup": {
+          "entryZone": "960.00 - 975.00",
+          "stopLoss": "870.00",
+          "targetPrice": "1250.00",
+          "riskRewardRatio": "1:3.2"
+        },
+        "sources": [
+          {
+            "title": "topstockresearch.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiAjbEpJZPafqwwnbGUCnIIWsTBL7DvuVvH394P5pMmuoccgrE0jDPIvDS5aNubbaTi0GNke_6P2vpnXAv2qS0k-wE11HLdgubDqXnWAW2woegOR21CyEf9mLumwDmUoQqspxlaYGXWRyM1tzxovzARYQoGh-WzF6HcHFgbQ1L"
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECYoF1bNXhU3ecP73Ip_HIzuzyfgRLGTqBGe862xXoZm1M4l1h6cr-8Rk-cXzZ0tHv2T5LyYbITUjroeagS4UqLplT9t-O4_wak8R4WTaGR4lMXHLg4Blo2_05_EDxdODFaUSuRZDFc2mCOOmD4yEgDKNip_LTbjEfUek="
+          },
+          {
+            "title": "enrichmoney.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc0cW12Uz1b6FFjaFXJvbjnKVUp6daMFNLFCqDp3tNl5dUAGz0CCa977keoBx8xIUxkTZqxyS8XpS4sTSdpUVZpoZbeQ6y830K460BnLsKE0J4DSdZQzBs08oHAVnl7SpcM-Nm1tB8P6fYdbrJFesfTLixejyXSdznAyd2vY2_NsBv"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "METROPOLIS.NS",
+      "signal": "BUY",
+      "price": 1988.5,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 1775.30, Orig TP: 2628.09)",
+      "analysis": {
+        "ticker": "METROPOLIS.NS",
+        "sentiment": "Bullish",
+        "confidenceScore": 85,
+        "validation": "Confirm",
+        "reasoning": "The technical signal (EMA 50/200 Cross) is strongly supported by recent fundamental performance. In Q2 FY26 (ended Sept 2025), Metropolis reported a robust 22.7% YoY revenue growth and 13.3% Net Profit growth, driven by expansion in B2C and specialty tests. The stock recently confirmed a 'Positive Breakout' above its 200-day DMA (approx. 1870), shifting the trend from sideways to bullish. Analyst consensus is largely 'Buy' with targets ranging from ₹2200 to ₹2400. The Q3 FY26 business update (Jan 2026) acts as an immediate catalyst.",
+        "fundamental_summary": "Metropolis Healthcare shows accelerating growth with Q2 FY26 Revenue at ₹429 Cr (+22.7% YoY) and PAT at ₹53 Cr (+13.3% YoY). The company is debt-free with a cash surplus. Growth is fueled by volume expansion (Patient volume +11%) and strategic acquisitions (DAPIC, Dr. RS Patil). EBITDA margins remain healthy at ~25%, though slightly compressed due to expansion costs. Valuation (PE ~69x) is premium but justified by >20% top-line growth.",
+        "catalysts": [
+          "Q3 FY26 Business Update (released Jan 5, 2026) indicating continued volume growth.",
+          "Integration of recent acquisitions (Ambika Pathology, DAPIC) boosting regional market share.",
+          "Expansion of high-margin 'TruHealth' wellness profiles.",
+          "Technical breakout above 200-day Moving Average."
+        ],
+        "tradeSetup": {
+          "entryZone": "1960.00 - 1990.00",
+          "stopLoss": "1840.00",
+          "targetPrice": "2250.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETi3wxO2O0Q3yB_dcdcXhs_V8EIuSoxDGtNf4P_3LMuGuJ5fjXZ4yliaohoCGlhKgwwiyqh196nsNaLKNW5EKzPQo5UGXoea0hY8nm_5EBhYdlPw0-xGubkkALAAPAn8UAufLxL0gd-K9GJmXZ87CpY6_4uOgtsp4P4bTkB__OONHqkkzAjqxD99I="
+          },
+          {
+            "title": "economictimes.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9qMD0wqOkc4i1TX04x_TfRgo32Rvi1TSbpW1FR5QwQTTLgpn5SIwpUO-TTHyNMhbn5gg60VTD0DycOSH4NPaUrwp0x6Bcb3jms8hl2kEzdC0Cagq84ktVI2WW8sa35iYKhWFPt_YJDgtsxJQJWQ4_G3bDBu4wq4_D0H3qOXjeDaRlYOz2QMbj-eXjlecm_9TKU_5KLzRiAti6S3p50Qcqaf77SJ8S0LzsleLumj31d79D7MPudAbwELrvHRMfpFDfFtNiVo-LkurZ4IO5FBZxe8KY"
+          },
+          {
+            "title": "angelone.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpr0u8bEsgqHr-4HF_RZYWHjPzml3Bd6oAXVKVKCmkOLN_FbMC-rYtKcVz3_7QmbYPVt6JVUmU3vudtx4XDLmanHd1fMhKvSvPv9NBhBkTpEo_FssnoWXv5nQo9dXZzYDr-j-_x1OPaagIC2UqvBxYjnWifmZpwlKTk9uQpMtIZk10mgrPViWfK6dAteAGQDf7nB19BbFYk8hCir1v6z5dmus_njQk257uE1krM-mdjPdISQ=="
+          }
+        ]
+      }
+    }
+  ]
+}
