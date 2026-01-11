@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "generated_at": "2026-01-11T01:03:42.811Z",
+    "total_signals": 17,
+    "filter": "Strong/Confirmed Signals Only",
+    "criteria": {
+      "min_confidence": 85,
+      "validation": "Confirm"
+    }
+  },
+  "signals": [
+    {
+      "ticker": "METROPOLIS.NS",
+      "signal": "BUY",
+      "price": 1920.4000244140625,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 1698.75, Orig TP: 2585.36)",
+      "analysis": {
+        "ticker": "METROPOLIS.NS",
+        "recommendedSignal": "BUY",
+        "sentiment": "Bullish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The setup aligns with a high-probability trend reversal. Metropolis has recently reclaimed its 200-day Moving Average (~1870-1915 levels) with reported 'notable surge in volume', confirming institutional interest. Fundamentally, the company is in a strong growth phase, reporting ~23% YoY revenue growth and 13% profit growth in the recent Q2 update (FY26 context). Analyst consensus remains 'BUY' with targets averaging ₹2,218+. The technical EMA crossover (Golden Cross potential) combined with robust double-digit fundamental growth validates the swing entry.",
+        "fundamental_summary": "Metropolis reported robust Q2 results with consolidated revenue up 22.7% YoY to ₹429 Cr and Net Profit up 13.3% to ₹53 Cr. Growth is driven by the 'TruHealth' wellness segment (+25% YoY) and aggressive expansion into Tier-3 cities. Margins are stabilizing around 25% despite expansion costs.",
+        "catalysts": [
+          "Q3 FY26 Earnings anticipation (seasonally strong for diagnostics)",
+          "Continued B2C segment expansion driving higher margins",
+          "Recent acquisition integration (DAPIC, etc.) boosting regional volume"
+        ],
+        "tradeSetup": {
+          "entryZone": "1915 - 1930",
+          "stopLoss": "1845.00",
+          "targetPrice": "2220 - 2585",
+          "riskRewardRatio": "1:3.5"
+        },
+        "sources": [
+          {
+            "title": "scanx.trade",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIjc-F9yMI3anspq_bmX7WDVM2osQEu88mW-NdrR_mT1Jo0OzdRNMT60yS-c8jwqxA8tavNZF7cp-y92VT7h6KSY1M8oO96g1ngSeiN9juf5eOUGPgRoIfSM5ndbORurv-7P3NF7LuNoj5RTcuHV3_oi-YghAcGZ3dhCptlruLEyfhrseWgn-dPfODfJOfNnAnDmSz5P8nX-DpxuxoS0IZ284HocbW5qE5MQ-r1XcsmBwZNnNr6gItdzrS1G93wGsNJObF"
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWM_fFihFmKwpk7PftcpxDWolGHZVTQpwC0B_4VJ9IhDGoQlM80LrCSVU1QtMbVInjhqIXd9D75vs70wFLulVoDW13ytSxIXYYYL-5iLcBoSrpcVJx_DgAjVKjP0iNZBF2domiA77PulsWejbwHkvbgTe2w5CQvVczB841pcgmSCg7zYcMF3yC96k="
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyUkVrWgX_h4kpWNBwgajVjj5Q-X4L3BOjUimZHx0sM4ffxDbJX932pKqM9PMXJcwfZqNgr0_ekeeDqO3l1uHee8xh9hYNgAkUMCjoFIBDQe2dulUCBQBT0xBmSokhnvXGNGViE6qxUCYFp8ZviZFYZiocSFw-SmgfiZ3k6aqeM6hIsS345Q9K0g=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "IPCALAB.NS",
+      "signal": "BUY",
+      "price": 1575,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1180.40, Orig TP: 2758.80)",
+      "analysis": {
+        "ticker": "IPCALAB.NS",
+        "recommendedSignal": "BUY",
+        "sentiment": "Bullish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The setup is validated by a massive volume spike on Jan 9, 2026 (738K shares vs ~204K 20-day avg), indicating strong institutional interest. Technically, the stock is trading well above its 50-DMA (1409) and 200-DMA (1394), confirming a strong uptrend. Fundamentally, robust Q2 FY26 earnings (+23% PAT growth) provide support, and the market appears to have absorbed the negative impact of the recent USFDA Form 483 (Dec 2025) which had only 3 observations.",
+        "fundamental_summary": "In Q2 FY26, IPCALAB reported a 23% YoY increase in Net Profit to ₹282 Cr and 9% revenue growth, driven by strong API and domestic formulation sales. In Dec 2025, the USFDA issued a Form 483 with 3 observations for the Tarapur facility; however, the observations were not critical enough to derail the stock's momentum.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected Feb 2026)",
+          "Resolution/Response to USFDA Tarapur Unit observations",
+          "Continued growth in the API export segment"
+        ],
+        "tradeSetup": {
+          "entryZone": "1570 - 1585 INR",
+          "stopLoss": "1440 INR (Recent Swing Low) / 1180 INR (Deep Trend Support)",
+          "targetPrice": "1675 INR (Immediate Res) / 1850 INR (Swing Target)",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "OFSS.NS",
+      "signal": "SELL",
+      "price": 7597.5,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 8816.99, Orig TP: 3939.04)",
+      "analysis": {
+        "ticker": "OFSS.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "OFSS.NS is in a confirmed downtrend, trading significantly below its 200-day SMA (approx. 8,486) and 50-day SMA. Recent price action shows a breakdown of the 7,600 support zone with rising volume (1.5x average daily volume), indicating strong distribution. Fundamentally, the Q2 FY26 results showed a 5.5% YoY decline in Net Profit, and the broader Indian IT sector outlook for 2026 remains muted with mid-single-digit growth projections. The 'Supertrend Flip' is valid, though the original TP of 3939 is fundamentally aggressive; realistic technical supports lie at 7,038 (52-week low) and 6,675.",
+        "fundamental_summary": "OFSS reported Q2 FY26 (Sep 2025) consolidated revenue of ₹1,788 Cr (+6.9% YoY) but a Net Profit decline to ₹546 Cr (-5.5% YoY), signaling margin pressure. The stock trades at a P/E of ~28x amidst a slowing IT spending environment in key markets (US/Europe).",
+        "catalysts": [
+          "Q3 FY26 Earnings Release scheduled for Jan 20, 2026.",
+          "Projected mid-single-digit growth for Indian IT in 2026 (Fitch Ratings).",
+          "Continued FII outflows from the IT sector."
+        ],
+        "tradeSetup": {
+          "entryZone": "7590 - 7650",
+          "stopLoss": "7920 (Above 20-day EMA)",
+          "targetPrice": "7038 (52W Low) / 6675 (Major Support)",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "topstockresearch.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5-x2ZPFWZ9i-vMjNQkiUQp-c7X5Zx0ydhwsooHd3-30gl6SViwlqJYFG6qDtFMKKTJFrrXLlO0Toyj5V0ZDxuSI6ZHA6vVsHtEvJPNWJGhw2hXT89NpOyNvKRiLUtFwVB21EE_CvABYEiICxxKEbChOT_R4n1UQ=="
+          },
+          {
+            "title": "munafasutra.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPoEWF0flaOH2_NKlVdTsDdFTM7yQRSEoMutpMUs3Zx3l6HgAWtu7c5SaB43CEUCtxk-_y8LVmN7Fj1NgJt3qLridKVpVMSVblX8YWCnBqJAHf5zLfjLicX4gmVpL8ybG-RD93gWE="
+          },
+          {
+            "title": "tradingview.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3KXsV7_DLXIX0HTccfKFhpTJKdmLOGHxgleR0CUeprJ_peevRMvL5Dh8GqEX-9ehgxE83M54EEzisbYKXl33end4gETE71EiCgohKcZkCE5F8hpznxvhiniPkoW3vibD7PpiXG7_HVjliOab41vmrdehX"
+          },
+          {
+            "title": "angelone.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrWgpUhNlrXVhef-PAuc5uQXmwQkNO5EqmLP52phMWvQHwq5q2gZcTD_anMzC2lPf41VJuvXszabFjWpxvKC-r-XJf0Z2YNFt9KdspyNgHNybp_qu6KfuwuDlbAF-3-WInsSR1GoU6UqSbvzt2KxyUCHWlJ9Owx9CrKodZStWExAcb4ZDco7znh12srHzQ9lKWwnWA3fo="
+          },
+          {
+            "title": "trendlyne.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvxQvQxEQiKcNWqXIMSA4_u99lvSFMunS-fqbAQXkRmIAruC8xhw1qQKUb-x2zDQyskgQUUSVcP7VKC5_N-Fr8hD7D6mJyS--BlQoA752pPS59KwH5vJmwrZuip5E6c0Do3VnYo_UsbdjNTgTFO2P20sDbd3gzTeNX5yZyDh1iPPROBt3DUfZ81mwoupbq44ja1KZhUj2Tm44Yug=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "HONASA.NS",
+      "signal": "BUY",
+      "price": 290.3999938964844,
+      "market": "IN",
+      "technical_context": "EMA 50/200 Cross (Orig SL: 246.92, Orig TP: 420.85)",
+      "analysis": {
+        "ticker": "HONASA.NS",
+        "recommendedSignal": "BUY",
+        "sentiment": "Bullish",
+        "confidenceScore": 92,
+        "validation": "Confirm",
+        "reasoning": "The BUY signal is validated by a strong fundamental turnaround and technical alignment as of Jan 2026. Honasa Consumer (Mamaearth) has posted a profit of ₹39 Cr in Q2 FY26 (Nov 2025), reversing the ₹18.5 Cr loss from the previous year. This earnings surprise is supported by significant insider buying, with Promoter Varun Alagh increasing his stake in Dec 2025, signaling high confidence. technically, the stock has formed a Golden Cross (EMA 50 crossing above EMA 200), and recent volume spikes confirm institutional/promoter interest. The price of ~290 INR reflects a recovery phase with strong support established.",
+        "fundamental_summary": "Honasa Consumer has successfully navigated its distribution restructuring (Project Neev), evidenced by the Q2 FY26 turnaround to a Net Profit of ₹39 Cr (vs ₹18 Cr Loss YoY). Revenue grew ~16% YoY to ₹538 Cr. The company's focus categories (Face Wash, Sunscreen) are gaining market share, and the inventory correction drag appears to be over. Promoter stake increase via bulk deal in Dec 2025 is a major positive trigger.",
+        "catalysts": [
+          "Q2 FY26 Earnings Turnaround (Profit vs Loss YoY)",
+          "Promoter Insider Buying (Varun Alagh increased stake)",
+          "Successful completion of distribution model correction (Project Neev)",
+          "Technical Golden Cross (EMA 50 > EMA 200)"
+        ],
+        "tradeSetup": {
+          "entryZone": "290.00 - 295.00",
+          "stopLoss": "265.00",
+          "targetPrice": "400.00 - 420.00",
+          "riskRewardRatio": "1:3.5"
+        },
+        "sources": [
+          {
+            "title": "upstox.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPTlP-qlAYhXEOKUl76U4-ViCoQgeGTDZ-Rzz-D7lwfsL8lVEscnbvtfapfTHypStO41m3wpQycn1umhHzvOKTOoCli-073ZxKDfBHX49ZwQdILbZc8gdXAH_7av4d_AmfG7MqntJbifYABq364pDQjRd6ztgIs0-lga-SLXvH0wFRua9aK9pTPE9ZW6QbJWrIv7TR_4U_WPg0MeqTh9-bI8_i0K0fH56tGf-0sVOM3B7wLpqIEosC1StHhM_yZs1NpBycPmgMKBTd9rMkGGoWThlnlUN-0ZwNy9A39sOfzw8CXM1sl2E="
+          },
+          {
+            "title": "scanx.trade",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAmd0sXf81uEYpI9OzH3RE9BWp3DA0LQ5VrnALutH-gPHwsNvtPxZQCI-pUlLgEb4qMVfYTlfBj6DSB7XJ5CAbAxupRuvKevJ5XjGGTdC4EJV-jraAjiAJhWhDjoml1zgC6vfz5lxq-dKqiMO7DkZyAlsW_IGgsip46imZH3HVe1T7H2j75kUIH6EnpON94EAVBVWtbnN4egAB2ki-aX_xOGY7_ilucuKQmaTE4a6vWyy0RsEien-hQkgSKLoqrJkpbol_WtDV9Ai"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "LTFOODS.NS",
+      "signal": "SELL",
+      "price": 366.20001220703125,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 451.79, Orig TP: 109.42)",
+      "analysis": {
+        "ticker": "LTFOODS.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "LTFOODS.NS is in a confirmed downtrend, trading below all key moving averages (20, 50, 100, 200 DMA). Despite strong revenue growth (+30% YoY in Q2 FY26) following the lifting of export bans, the stock is facing significant margin pressure (PAT only +9% YoY, QoQ decline) and external headwinds including US tariffs and payment issues in Iran. Technical indicators (MACD negative, RSI bearish at ~32) signal continued momentum weakness. The original Supertrend flip is validated by current price action breaking recent supports.",
+        "fundamental_summary": "In Q2 FY26 (Oct 2025), LT Foods reported a 30% YoY revenue surge to ₹2,772 Cr, driven by the removal of export curbs. However, operational efficiency lagged, with PAT growing only 9% to ₹164 Cr and margins contracting due to higher expenses (+31% YoY). The company faces headwinds from US tariffs on rice and economic instability in key markets like Iran.",
+        "catalysts": [
+          "Q3 FY26 Earnings release (Expected Jan/Feb)",
+          "Impact of US Tariffs on Basmati exports",
+          "Resolution of payment delays from Iran",
+          "Global rice price fluctuations post-export ban removal"
+        ],
+        "tradeSetup": {
+          "entryZone": "366.00 - 370.00",
+          "stopLoss": "388.50",
+          "targetPrice": "320.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "topstockresearch.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3cqb_q7mqSnEkBy05AiWVAIaZycq84gImIlM1tXxfOYn90clXqLcf3m_enJODJfwVp25VpEwio-B_u7JJg3r8Ppjm8oGIca8lzCS7Bain_DY6CbufV6CT9nDm6tCJbINgFFEmVsOVzdRhvCsc3S3rn88HMEwa5uAY-b-al1E="
+          },
+          {
+            "title": "iref.net",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnlLYOd_RL_XiyV_vYKgVLERiU9Md1rDwhdqcm3joFUT3irdF2Bwd3hz5ZcZH1C4DjlGFr14VPY3O9ru5Tdm6UMdH-GK3q6btNy8SveJqRtr7MSeTsgfB-yZ6KGgK3Ck3XFX9KvepbLT4K9UGxBK5qytjGtMNSftRGV3-g6-o="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "CHENNPETRO.NS",
+      "signal": "SELL",
+      "price": 782.7000122070312,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1046.69, Orig TP: -9.27)",
+      "analysis": {
+        "ticker": "CHENNPETRO.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The stock is in a confirmed strong downtrend, trading below all key moving averages (20, 50, 100, 200 DMAs). Technical indicators (MACD, RSI) signal continued weakness with no signs of reversal. Despite reported YoY profit growth in Q2 FY26, the market is pricing in weakness likely due to suppressed Gross Refining Margins (GRMs) and inventory loss fears affecting the upcoming Q3 results. The 'Strong Sell' technical rating across multiple platforms supports the bearish bias.",
+        "fundamental_summary": "While Q2 FY26 showed a net profit of ₹732 Cr (YoY growth), the stock has corrected ~29% from its 52-week high, indicating market skepticism about sustained margins. The abolition of the windfall tax in late 2024 has not arrested the decline, shifting focus to core refining spread weakness and potential inventory losses from crude volatility. Cash flow concerns have also been cited in recent analyst notes.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (Expected Jan/Feb 2026)",
+          "Global Crude Oil Price Volatility (Inventory Loss Risk)",
+          "Critical Technical Support Breakdown at ₹775"
+        ],
+        "tradeSetup": {
+          "entryZone": "780.00 - 785.00",
+          "stopLoss": "825.00 (Above 50 DMA)",
+          "targetPrice": "700.00",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "signal": "SELL",
+      "price": 959.5999755859375,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 1094.36, Orig TP: 555.32)",
+      "analysis": {
+        "ticker": "BAJFINANCE.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is strongly supported by both technical and fundamental factors in the current Jan 2026 context. Following the 1:10 stock split adjustment (June 2025), the stock is trading in a confirmed downtrend, validated by 'Strong Sell' ratings across moving averages and oscillators (MACD < 0, RSI < 40). Fundamentally, the company faces headwinds from deteriorating asset quality (rising GNPA/NNPA reported in recent quarters) and reduced ROE guidance due to RBI's tightening on unsecured lending. The current price is below the Supertrend resistance (~1030 INR), indicating sustained selling pressure.",
+        "fundamental_summary": "Bajaj Finance is grappling with macro headwinds and regulatory pressure on its high-yield unsecured lending book. Recent earnings reports (FY26 Q1/Q2) highlighted a miss on profit estimates and a rise in credit costs/provisions. The valuation premium is contracting as growth normalizes and asset quality stress becomes visible post-split.",
+        "catalysts": [
+          "Upcoming Q3 FY26 Earnings (focus on NIM compression)",
+          "Regulatory tightening on NBFC unsecured credit",
+          "Rising cost of funds impacting margins",
+          "Asset quality deterioration (GNPA > 1.2%)"
+        ],
+        "tradeSetup": {
+          "entryZone": "955 - 970 INR",
+          "stopLoss": "1094.36 INR",
+          "targetPrice": "555.32 INR",
+          "riskRewardRatio": "1:3.0"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "EIHOTEL.NS",
+      "signal": "SELL",
+      "price": 346.6000061035156,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 403.17, Orig TP: 176.90)",
+      "analysis": {
+        "ticker": "JPPOWER.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is strongly validated by both technical and fundamental deterioration. Technically, JPPOWER has broken below all key moving averages (50, 100, and 200-day), confirming a bearish trend reversal. Recent trading sessions show high volume on price declines (distribution), indicating institutional exit. Fundamentally, Q2 FY25-26 results showed a 34.53% QoQ decline in Net Profit and a 9.15% drop in Revenue, dampening sentiment. High promoter pledging (~73-79%) remains a critical risk factor.",
+        "fundamental_summary": "Net Profit for the recent quarter (Sep '25) fell 34.53% QoQ to ₹182 Cr, while Revenue dipped 9.15%. Although the company is profitable, growth is stagnating, and high promoter pledging limits upside potential.",
+        "catalysts": [
+          "Weak Q2 Earnings Growth",
+          "Breakdown below 200-Day Moving Average",
+          "High Promoter Pledging (Over 70%)",
+          "Sector-wide profit booking in Power small-caps"
+        ],
+        "tradeSetup": {
+          "entryZone": "16.85 - 17.30",
+          "stopLoss": "18.50",
+          "targetPrice": "14.00",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "stockanalysis.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNY3tMFF_xnElgzXnsBvV9ZkoRUO8MkKknj1Z_hekw0k5_KZEvEIVbkuyjnxtMFwFj2JJa00AjqCvn-PHk3hSAtoGQnOYjLr6e9mrFv9J3DUPHMhjgh0dPD2FA9-LaK7kyv1gkcXS85nlpBUjZHq4="
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi2nveMMs4_LjSHliLo96e8y_nhsHdpzTyrQWiMvQBnCZDLDS4tTKWXZsPXtjU-G6QH_tfhwZtBPsfGZ9ZrCUyMefe2sEFe9fQpYz0ExAXJ19LLW42ePFj6urGOw7g17xIkZga4Bzy2PcRaB-5zOm_kQ7m8ZgpW3xNzL5e9Mi4ddgwxN6EnEUhU9rP9CwbuYGUanjLymzN7Qo-coP8ifQwljUmiujnjAgqRmgbs6j61xjxFwaUBK_DB293HfOlf8I8tRwo"
+          },
+          {
+            "title": "topstockresearch.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvTb4PHNm5k1nm_Y0kT-dvWeRdMeO4G-2yNCRqkXhpkFW5_DAAT_5yrCXO94SihwW039XFTSFCfavNo20cyKF8eLCU5g2ZwWfKgwNGedcfx86zYOoR55xEKwtUnSZlpb7trpXgQoeili4QSWeC9m5--y2vUjZKSqxynaN1Kxk="
+          },
+          {
+            "title": "blinkx.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVyABO6-F57EWUHDsx4BVPsmoyzk2kceC5CzL1sd9ue-r3RdIXoexXJpcuOgasCrurgKQZ4ATiAvia4h6mS_POgAkDwVEr2Qj6XjPDfzPmIZxt4Y_3a0A9W1eBZ4eBfuyekt8UaK4f9nYsv7hy5O3OseWpyPIw4G6aZZDZUTGAfNV-Of-fDgAYhs6HuA=="
+          },
+          {
+            "title": "tipranks.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHZH2o2NSh67pDkAwHjOMk1pJGgMDhOE4nQuw9vsJFlgXJ-0f0S_09ttQFTsmLD49bFnl6y3izWeZGi0iLkkWXs97sxpUlG_Z2qJEx_g3AI5UDTaSitQ44arIF6PUp6anJQd8zPE5ddzJnwiEVT2CGf8-Ap5qXemY="
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu5YwHpnLSw-OCMNA5qnQRJbi8PW2lEc1bgDvFStfPVvCmiNr-yMSCmAv4Ho_NRdWV4_dvmiGA-axV3VcHMW77N_6ZwkQLu5_TpaImkKiDuQxQ8FKb9sGbrwHH7BxwkqKPVX1OJaA7SdEfsDyzXMUmKC0u9SScxbuUnfjUwj7i6IpL-KjypouZUGMRUbo63Wk7TmSKttiBq_ECKsf9rd78gsYVMwXQPoMwDN28rvSQHVZqYnO1gVHnWwAJRYt6DTG4JvINNox7"
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIlYFVq5iTk5gr6cmkf92uyuXPCf6euO8XpiVnaiVVMMx_9JYP1kNA-5GI8ca0qaf4qBTFl7zFzO6lGQZ7MxoXWUqAaWSkJiTKrvUdaVYGR4NCityBZMPZSAICW-RAk6aNYlju8Z8mS6OEJgRr_s9Euu3NWqf-yolGfUo8W4juwncoj5GqrtxRsdIAdnvmMhr1zV1Ps1Bj7pRVw4E5-sAzSyd9fNJvWm1d_byw4e6NqVoKOhqWTH7nL1DBEJ9pW5gppNJQ"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MAXHEALTH.NS",
+      "signal": "SELL",
+      "price": 1017.2000122070312,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1204.89, Orig TP: 454.14)",
+      "analysis": {
+        "ticker": "MAXHEALTH.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "MAXHEALTH is in a confirmed bearish trend, trading significantly below its 50-day (1100) and 200-day (1160) moving averages. The recent Supertrend flip to bearish is supported by a steady price erosion and relative underperformance against the Nifty 50. Despite robust Q2 earnings (74% PAT growth), the stock is facing valuation compression (P/E ~70x) and institutional profit-booking (recent block deal on Jan 10). Momentum indicators like RSI (40) and MACD are negative, signaling continued weakness.",
+        "fundamental_summary": "Max Healthcare reported strong Q2 FY26 financials with 25% YoY revenue growth and 74% PAT growth. However, the stock is categorized as an 'Expensive Underperformer' with a high P/E relative to the sector average (62x). MarketsMojo recently downgraded the stock to SELL due to deteriorating technicals and valuation concerns despite Nifty 50 inclusion.",
+        "catalysts": [
+          "Recent block trade worth ₹15.59 Crore indicating institutional selling pressure.",
+          "Downgrade by quantitative research firms (e.g., MarketsMojo) to SELL.",
+          "High valuation (P/E ~70x) inviting profit-booking in a volatile market.",
+          "Technical breakdown below key support levels (1020-1030 zone)."
+        ],
+        "tradeSetup": {
+          "entryZone": "1015 - 1025",
+          "stopLoss": "1065 (Near 20-DMA)",
+          "targetPrice": "940 (52-Week Low Support)",
+          "riskRewardRatio": "1:1.6"
+        },
+        "sources": [
+          {
+            "title": "topstockresearch.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw9X8LsJSunrT2hxMPU9g_9l-3Mcb7VbF5UElPHGavxieqWAtO1wghk-lfunnSfryZLo-ZJPeemuG6dXZbWovQwwF2Qcaa3XILvFLoIcyAYKNHzuR6SFyKl3erG7LivLMZ9mFyhz8Wfa6jPolWFkucz4dua8glH8o="
+          },
+          {
+            "title": "medicalbuyer.co.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa9ae0FTenJAcqQMot_JOPmTP39lwJx8_baGZbwT8l1NVG3sZYWdxmZI-MXTXGQSUmKGpo2NB-jJU4cWL6i-UrGSrpqidnxJLM8r7brVZL06AdU68l3fJPemaZkR654pkJFghcL11XndqX-CdL2qof2mwOr6gh4bg0W_OhMm5awxbMMN4FNyb3pPwaE0nqgkVe5ZzsMksxo-iUpMVj9p2tBU7pDIvT2Q=="
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3Cbb5jAqgW4do95zZbN_3OqEr_2eO_1mkvwBXjHJ1lwc-S_58T5C4-d5gJO6fP5Zwjur7lZXrlNfUHTI0P0tmEI--iwsjWkNFxe49vF3Wt_US3vxNlo0OOaYMvnVken2w9e0AX9QcMx0hnO7KMbZinXguEQJ92jKn2YoQUYKxjPf8U0iEeh-snLQQKjf4XWYBya4_I0Skk__vILDk4hnuJ6u6kuzciTFjWgy5-ma76FuegKJqpZgZX9pPo1ZJPlmk4a0wP9uQX7fYSTQlXaHe0Yw="
+          },
+          {
+            "title": "munafasutra.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXebLBE3xOFoc5c2MOqyIlrNTM8LBldGCN5utwBLMBo_rx3gtJTqzrVCGrBTEYyET2tEWvBFPD6aFpVBLHjb16Hx8F1OdqNQZDA_xWZu-cHZfh4I2NK5B5AAhnTZl6fBW5Gw=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ZYDUSLIFE.NS",
+      "signal": "SELL",
+      "price": 894.9000244140625,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1017.83, Orig TP: 526.10)",
+      "analysis": {
+        "ticker": "ZYDUSLIFE.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is validated by a confluence of technical breakdown and forward-looking fundamental weakness. Technically, ZYDUSLIFE has broken crucial support at 916 INR and triggered a bearish Supertrend flip (currently resistance ~941 INR). Momentum indicators (MACD, Moving Averages) are in a 'Strong Sell' alignment. Fundamentally, while Q2 FY26 reported robust past revenue, analysts forecast a 3.8% annualized earnings decline over the next 3 years, creating a negative growth outlook. The stock is also trading below its 200-day moving average (~949 INR), confirming a long-term trend reversal.",
+        "fundamental_summary": "Zydus reported robust Q2 FY26 revenue of ₹61.2B (Nov 2025), driven by US formulations. However, market sentiment is dampened by a forecasted earnings contraction (-3.8% CAGR) and lingering regulatory overhang from 6 USFDA observations at the Dabhasa facility (Apr 2025). The stock trades at a P/E of ~18x, which appears undervalued but reflects the lack of near-term growth triggers.",
+        "catalysts": [
+          "Forecasted earnings decline (-3.8% per annum)",
+          "Regulatory overhang (USFDA observations at Dabhasa)",
+          "Technical breakdown below 200-DMA and 916 Support"
+        ],
+        "tradeSetup": {
+          "entryZone": "890.00 - 900.00",
+          "stopLoss": "945.00",
+          "targetPrice": "800.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_kdKATgsKzKggaeDffJ5iyvKpZq3sb5uDQA9CFNZMhYQVrm5czd57WiZgo6fkQorcMfjV_ZATLbpaS6pUq66RvKQpPHB9KjiLQoU1Grtx6jtD95l1BH-7J0KqBCuy5zCYD2BMUgiHIrZVaWMr2iCNBstIb2YUYXY="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "JIOFIN.NS",
+      "signal": "SELL",
+      "price": 287.25,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 326.12, Orig TP: 170.63) | EMA 50/200 Cross (Orig SL: 259.42, Orig TP: 370.75)",
+      "analysis": {
+        "ticker": "JIOFIN.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "JIOFIN.NS is exhibiting a confirmed bearish breakdown, trading significantly below its 50-day (approx. 297-300) and 200-day (approx. 298-300) EMAs. The stock has recently breached the 300 INR psychological support with rising volume (12M vs 6.9M avg), indicating institutional distribution. Momentum indicators (RSI ~30, MACD negative) signal strong selling pressure. The high P/E valuation (>114) provides fundamental justification for a correction amidst broader sector rotation.",
+        "fundamental_summary": "Despite decent Q2 FY26 income growth, the stock's premium valuation (P/E ~118) leaves it vulnerable to mean reversion. The upcoming Q3 earnings (Jan 15, 2026) act as a binary event; however, current price action suggests the market is pricing in weakness or profit-booking ahead of the report.",
+        "catalysts": [
+          "Q3 FY26 Earnings Report scheduled for Jan 15, 2026.",
+          "Technical 'Death Cross' (50 EMA crossing below 200 EMA) confirming downtrend.",
+          "Weakness in the broader NBFC sector due to regulatory caution on unsecured lending."
+        ],
+        "tradeSetup": {
+          "entryZone": "287.00 - 292.00",
+          "stopLoss": "305.50",
+          "targetPrice": "260.00",
+          "riskRewardRatio": "1:1.8"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyawwQ8rfLotnuFsa1Yc31jAos7WC4KqJzdbJwMcixm0mAzKbuMQzOMlJ2N55Lkm8ieiDmyWsXWyRucOEZZwu2PNuFXZ7R8DaH4Rx5SgT6I0PLkt4wEBe_ioEuguHGssn9yTX0J8kL4LPE1jrPPjqd8DuJF6wjl9HpKoDw"
+          },
+          {
+            "title": "etmoney.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdWOXt9vujyHSeilDo5Pcpk7l-goG5ylo5pIbZs_SJLpBLp_PitnqWgyUTJVvhvheauorn_k0dE16xEx4VXIdZq8oQce9ktiuaAq1XganbZ-gTo9J4il9g72cK3YPDDBh95C9jhzuUIwVTLM2nXK-Lnz_raSh7rQ9c75uDVZOpLpQCXQ=="
+          },
+          {
+            "title": "observervoice.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE60-RQBXLiy6hVTBeU6EqIXrXO2czDU25UAV7Cfi26fIjKqYICmLODr9C7WI7_D8r1nLLP18aQto_DUEWkQ5eFFoa00pWKeJi9jpt38v_mtls9s1XTHt0FoTDVLn_5RHIByfWL0xjqL5XYNdlhLlt4gjnLP9rHC8liNAzmQhMnCAQoGoZBA2k-3pmCLet-iQQYGPxrqv8ksSPBQ=="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MOTILALOFS.NS",
+      "signal": "SELL",
+      "price": 804.75,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1017.18, Orig TP: 167.46)",
+      "analysis": {
+        "ticker": "MOTILALOFS.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 92,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is strongly validated by both technical breakdown and fundamental deterioration. The stock is trading well below key moving averages (5, 10, 20, 50, 100, 200 DMAs) and has breached critical support at 860 INR. Fundamentally, the Q2 FY26 earnings (reported Oct 2025) were disastrous, with a 67.6% YoY decline in net profit and 34.6% drop in revenue. Recent news of the Motilal Oswal Mutual Fund suspending inflows into its Microcap scheme adds to the negative sentiment surrounding the group. The Supertrend flip aligns with the broader bearish trend.",
+        "fundamental_summary": "Q2 FY26 financials show a massive 67.6% YoY drop in Net Profit to ₹362 Cr and a 34.6% decline in Revenue to ₹1,859 Cr. Margins have contracted significantly (EBITDA margin down to ~45% from 64%). The suspension of the Nifty Microcap 250 Index Fund inflows (Jan 2026) signals caution in their asset management arm.",
+        "catalysts": [
+          "Q2 FY26 Earnings Miss (-67% Profit)",
+          "Suspension of inflows in Motilal Oswal Microcap 250 Fund",
+          "Breakdown below major support level (860 INR)",
+          "Broader weakness in Indian Financial Services sector"
+        ],
+        "tradeSetup": {
+          "entryZone": "804.00 - 815.00 INR",
+          "stopLoss": "875.00 INR (Above recent resistance/20 DMA)",
+          "targetPrice": "720.00 INR (Near-term support)",
+          "riskRewardRatio": "1:2.3"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8fBMogGdX9Gis50tW_VRToBxhFK6F-nsp5UpuyKfRWtyZ95dyzn40KTHl4q5_noOpFJ4kTN_PAy6vxVVFt4aHa8UQTd7lBoT-ivebHN29S-9DvLX4-I_r7-feK8ywHgpTHFOV6zGeYHp0Nuq0DyWTByT3ECbduW9o7nU5Fsiq"
+          },
+          {
+            "title": "univest.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXnndX3XXFRBGyCkcu5LmO7vpu22FKpfwgRXli4w0puhvYgP4lrbS7iDTl9mw5bS_3gqr1tpvMQIb5SZE8L6CpvJs7EfEM0kKTZWdRgV60nrYR6A8u1PNTR_CuNqprWQmi_U4LKXLzdwN5M4bus78Zi1XQP6o4PLIG5Tx8ac1CiPgwBng="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SCHNEIDER.NS",
+      "signal": "SELL",
+      "price": 644.25,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 843.27, Orig TP: 47.18)",
+      "analysis": {
+        "ticker": "SCHNEIDER.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is validated by a convergence of technical breakdown and fundamental weakness. Technically, the stock has breached key support levels (falling from ~820 in Nov 2025 to 644), confirmed by the Supertrend flip. Fundamentally, recent quarterly results (Q2 FY26) reported a YoY net profit decline of 3.6% and margin compression, signaling a slowdown in the high-growth narrative that previously justified its premium valuation. The steep price correction (~25% in 2 months) suggests institutional distribution.",
+        "fundamental_summary": "Schneider Electric Infrastructure reported Q2 FY26 earnings with a Net Profit of ₹52.32 Cr (down 3.59% YoY) despite an 8.4% revenue increase, indicating margin pressure. This follows a weak Q1 FY26 where profit fell 15%, confirming a negative earnings trend.",
+        "catalysts": [
+          "Q2 FY26 Earnings Disappointment (Profit Decline)",
+          "Margin Compression due to rising input costs",
+          "Technical breakdown below 700 INR psychological support",
+          "Broad sector rotation out of high-valuation capital goods"
+        ],
+        "tradeSetup": {
+          "entryZone": "640.00 - 655.00",
+          "stopLoss": "715.00",
+          "targetPrice": "550.00",
+          "riskRewardRatio": "1:1.5"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "EIDPARRY.NS",
+      "signal": "SELL",
+      "price": 939.7000122070312,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 1181.94, Orig TP: 212.99)",
+      "analysis": {
+        "ticker": "EIDPARRY.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 88,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is validated by a convergence of bearish technical indicators and sector headwinds. Despite reporting strong Q2 FY26 earnings (Net Profit +39% YoY), the stock has faced 'Sell on News' pressure and was recently downgraded to 'SELL' by major analysts (e.g., MarketsMojo) due to expensive valuations (P/B ~2x) and deteriorating momentum. Technicals show a breakdown below key moving averages (20, 50, 200 DMA) with the Supertrend flipping bearish. Fundamentally, while production is rising, the projected 18% surge in sugar output for the 2025-26 season has triggered fears of an oversupply glut and falling realization rates, weighing heavily on sentiment despite the MSP hike pleas.",
+        "fundamental_summary": "EID Parry posted robust Q2 FY26 results with Revenue up 25% YoY and Net Profit up 39% YoY. However, the market is discounting these lagging metrics in favor of forward-looking risks: a projected domestic sugar surplus leading to softer prices and a 'High Valuation' flag relative to peers.",
+        "catalysts": [
+          "Projected 18% surge in India's sugar production for 2025-26 creating supply pressure.",
+          "Recent analyst downgrades citing expensive valuations and technical weakness.",
+          "Government decision on increasing Minimum Selling Price (MSP) and export quotas (uncertainty creates volatility).",
+          "Bearish crossover on MACD and 'Strong Sell' rating on multiple technical timeframes."
+        ],
+        "tradeSetup": {
+          "entryZone": "939 - 955",
+          "stopLoss": "1005.00",
+          "targetPrice": "850.00",
+          "riskRewardRatio": "1:2.1"
+        },
+        "sources": [
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMyb7FbpDW16TA4DbkqN1T_mWTJsYfh1wwQdhYA8IFu2WX5MTjAyO3a7dY8fwU-uELUdbQEjZ7PGkbQfX0OvQ1G2SERzc6QSUPPMoa67BOM8it_uU5m0E6IiODp-0Zk3ZNHxCV4p32vgompoiEDjORe-W7C0M9"
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC4kBUrCLDEL69zCRs-3C537gwv_11Z4AVkLPSQP1lHGt7hrWWafXcCF183OeurzT1rLJG5iTfOoY9lqz9HBunjc5eBBAxb370GsAoWt7rSQqKXqU8IqVX654ow8Sp5y47alUkMQcnRTZtDnT-FPP102o6hRtL"
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPoSokHe02o0xSziMtx6V1v5WMU3dMXDnjrjSQhrJSmydXco1x23xAL_C9JjrXaqFNOjhV6GoFP7pOKislHTnsrUAcax5bu0GD9Pj2wVFRlo56kbOrkebZoW9YzRuEt5dEF5TlWTgMPTexuLQCyq70wIUFDnutq_vovVDbfBV1K9S5bMenrETi00Lieb8ePpiJldoco1YkAwl8G_DduTjbc3ghBkYhp-6o1po2ZNy57zrQdouNJqLXIEvhXwk="
+          },
+          {
+            "title": "marketsmojo.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-E3B6-0OzQe6M2YIAFH5jnar2sBReKQszZKk963TzMq6p17DGJmMX-PjUc2VfRHBj46LjYFVs6QaPuv9X8aQtIfZsuJXmuLL-Fz_d0ybTOUYzYmDQrpvloXZf_rz-IoZaYF1XkVPZQ2iaQaQQMiNQA4oXqNk0f84x26mIuRVDittdUQ9hIY-Gg8br7ODjQGjneIPLFQWtsMHE4UQIfSAiHrJWFlqgmEGDKr1CA9-Z5octBYS6nYxFcQFfnHZFNFK64em-w=="
+          },
+          {
+            "title": "youtube.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtAcxsSViVyT9Vyr2PbpyuQn4rPFEr9hQeArFqwzb9svFEorvaazn-tmcVw0IK9t7enpiDaT5odenDy0LFaw5cvOlv5_-hsZdjyPdcFDy5WvzLU6K09kqxEA31WoA-fVHfA7jNrBE="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "WAAREEENER.NS",
+      "signal": "SELL",
+      "price": 2544.60009765625,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 3434.61, Orig TP: -125.42)",
+      "analysis": {
+        "ticker": "WAAREEENER.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 92,
+        "validation": "Confirm",
+        "reasoning": "The stock is in a confirmed downtrend, having fallen for 8 consecutive sessions with high relative volume (3x the 2-week average on recent drops). It is trading below all key Moving Averages (5, 10, 20, 50, 200 DMA). Crucially, the market has ignored recent positive news (105 MW order win), selling into the news, which is a classic bearish signal. The inclusion in the F&O segment (Jan 2026) has likely facilitated increased short positions.",
+        "fundamental_summary": "Despite strong Q2 FY26 results (Revenue +70% YoY) and a robust order book (~₹47,000 Cr), the stock is undergoing a severe valuation correction (-20% in 3 months). The current PE of ~27x suggests the market is pricing in slower future growth or sector-wide profit taking.",
+        "catalysts": [
+          "Q3 FY26 Earnings Volatility (Upcoming)",
+          "Recent F&O Inclusion increasing short liquidity",
+          "Market ignoring recent 105 MW Order (Bearish Sentiment)"
+        ],
+        "tradeSetup": {
+          "entryZone": "2545 - 2580 (Sell on minor bounce)",
+          "stopLoss": "2725 (Above recent swing high/EMA 20)",
+          "targetPrice": "2250 - 2300 (Major Support Zone)",
+          "riskRewardRatio": "1:2.5"
+        },
+        "sources": [
+          {
+            "title": "scanx.trade",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEchKN1dtZ-C-C2zt2dUFY7pX5n1g21OQlifoEUWlPIgM6fJV7lz2_IHZkqNOL3RqhzPaNdGdR7ZIOIs0qdv84mN1MPST6IW1XvVKz4TdDdULVigVGFzCTxcrDkTBIOKZtoAZmNt_fd0m1dXMA0zBE_lhrMA8P9CXG-ZEzv_IzC8lA1km_CJPH-urNLUZptHv9uDLNeNjRayKPt8f8nq3IQaNMJZcZH59MHCwqDrEg5N-HS22vdDePqnPRWg1vcgFRc5emH6Ts3IpzmgIh2DEA9EtE="
+          },
+          {
+            "title": "investing.com",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzF_ugH-pMyc3x-Nz7OHX6bOdVhS-OnHMimiQVgonHfBdjZKsMpT-J7XxMe5pqxlSgUtYemBrgPnM4LFi2CuLGfMSPTqVsPoWn4-_MEUcwuk5dT7a8ZQzkIA2kqopbp_Bo0RmiZt9K9QAkKf_6WC0Q4p8bu42A"
+          },
+          {
+            "title": "dhan.co",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpaRAULQ9SgTg7YRSEAFBQWajWNAd8q4ChoFcTh29PLcgFW4agqt86FIHbmOwxQoEcb0JY4iUJi9d47VOKGU5e4dUCPa8X3PiKTmdIzoO9mlfEEQ471x5l81s_QqV4GeA0SMK3i439cQEmuaV8RyYoSm3YEYjIJPA="
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TATAPOWER.NS",
+      "signal": "SELL",
+      "price": 364.79998779296875,
+      "market": "IN",
+      "technical_context": "CE+QQE (Orig SL: 412.57, Orig TP: 221.50)",
+      "analysis": {
+        "ticker": "TATAPOWER.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 92,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is strongly validated by both technical breakdown and a major fundamental negative. Technically, the stock is flagged as a 'Strong Sell' across multiple timeframes (Daily/Weekly) with moving averages trending down and price breaking key support at ₹371. Fundamentally, the massive adverse arbitration award of ~$490 million (approx. ₹4,100 Crore) reported in late 2025 acts as a severe catalyst for downside, potentially eroding a significant portion of annual profits. Institutional sentiment has turned cautious with rating downgrades.",
+        "fundamental_summary": "Tata Power faces a significant one-off financial hit from a $490M arbitration ruling (August 2025), which materially impacts FY26 profitability. While revenue growth remains steady (~4-5%), the bottom line is under pressure, and the stock is trading at a premium P/E (>30x) which is difficult to justify given the capital outflow. Q2 FY26 profit was flat/negative, further dampening sentiment.",
+        "catalysts": [
+          "Adverse Arbitration Award (~$490M payment obligation)",
+          "Technical breakdown below ₹371 support level",
+          "Analyst downgrades to 'Sell' in Jan 2026",
+          "Stagnant Q2/Q3 FY26 earnings growth"
+        ],
+        "tradeSetup": {
+          "entryZone": "364.00 - 375.00",
+          "stopLoss": "412.57",
+          "targetPrice": "221.50",
+          "riskRewardRatio": "1:3.1"
+        },
+        "sources": []
+      }
+    },
+    {
+      "ticker": "SUZLON.NS",
+      "signal": "SELL",
+      "price": 49.20000076293945,
+      "market": "IN",
+      "technical_context": "Supertrend Flip (Orig SL: 61.83, Orig TP: 11.31)",
+      "analysis": {
+        "ticker": "SUZLON.NS",
+        "recommendedSignal": "SELL",
+        "sentiment": "Bearish",
+        "confidenceScore": 92,
+        "validation": "Confirm",
+        "reasoning": "The SELL signal is validated by a high-volume breakdown below the psychological ₹50 support level and the 200-day Moving Average (approx ₹52.62). Relative volume on recent declines is ~2x the 20-day average (103M vs 50M avg), indicating strong institutional distribution. Technical indicators (Supertrend, MACD) are in a confirmed downtrend, and recent news regarding management exits and execution delays adds fundamental weight to the bearish thesis.",
+        "fundamental_summary": "While Q2 FY25 showed growth, recent sentiment in FY26 has soured due to concerns over order execution delays and high-level management resignations (CFO/CEO New Biz). The stock has corrected ~33% from its 52-week highs, reflecting a repricing of risk.",
+        "catalysts": [
+          "High volume selling (103M+ shares) indicating institutional exit",
+          "Breakdown below key 200-DMA support (~53 INR)",
+          "Management stability concerns (recent resignations)",
+          "Sector-wide profit booking in Indian renewables"
+        ],
+        "tradeSetup": {
+          "entryZone": "49.00 - 50.50",
+          "stopLoss": "54.00",
+          "targetPrice": "42.00",
+          "riskRewardRatio": "1:2.3"
+        },
+        "sources": [
+          {
+            "title": "gripinvest.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGInM339xdA6vIrFhoyfa6meKl28nWBOuRo5Dnc3HOdK3HXncsOQ11IX84Gcpi_eZuM4yDpvscm9_2M1XpCeIvPEvJfJthyUtR4Y8EMR27VBGAvgmr5WKUd7ehbMk6KWk0M3Y8_EJwITj_jcVBoql-Cek4sGz4zoKA16IA="
+          },
+          {
+            "title": "bajajbroking.in",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcdEtuk1imHqQJ1JYxOcZDB_bsgVlJJu68F4_tEHYcnB-bkIkINjaQUHKBBgffkGrSVIsF_0RBbpPGd77BH7gMGLa9bdJYktsjglJPrc3-JZRc7q0KiJBBGQqgOkyO_52DuoPg9I4wLaYIXMWVRG94j5o3Q27gabN746iZZXOT"
+          }
+        ]
+      }
+    }
+  ]
+}
