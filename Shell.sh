@@ -6,7 +6,7 @@ conda activate tradingweb
 
 # Uncomment the one you need:
 #python scripts/publish_report.py SwingSignal_Data_2026-01-09.json
-python scripts/publish_weekly.py SwingSignal_Data_2026-01-11.json
+python scripts/publish_weekly.py SwingSignal_Confirmed_2026-01-11.json
 
 git add .
 git commit -m "Report $(date +'%B %d, %Y')"
